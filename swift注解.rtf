@@ -1,0 +1,525 @@
+{\rtf1\ansi\ansicpg936\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset134 PingFangSC-Regular;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 HelveticaNeue;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red170\green13\blue145;\red196\green26\blue22;
+\red46\green13\blue110;\red92\green38\blue153;\red35\green35\blue35;\red0\green116\blue0;\red28\green0\blue207;
+\red38\green71\blue75;\red38\green38\blue38;\red255\green255\blue255;\red245\green245\blue245;\red255\green0\blue0;
+\red63\green110\blue116;\red114\green114\blue114;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;\csgenericrgb\c66500\c5200\c56900;\csgenericrgb\c77000\c10200\c8600;
+\csgenericrgb\c18100\c5200\c43100;\csgenericrgb\c35900\c14900\c60100;\cssrgb\c18431\c18431\c18431;\csgenericrgb\c0\c45600\c0;\csgenericrgb\c11000\c0\c81000;
+\csgenericrgb\c14900\c27800\c29400;\cssrgb\c20000\c20000\c20000;\cssrgb\c100000\c100000\c100000;\cssrgb\c96863\c96863\c96863;\csgenericrgb\c100000\c0\c0;
+\csgenericrgb\c24700\c43100\c45600;\cssrgb\c52157\c52157\c52157;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab543
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f0\b\fs38 \cf2 \CocoaLigature0  
+\f1 \'bb\'f1\'c8\'a1\'d7\'d6\'b7\'fb\'b4\'ae\'b3\'a4\'b6\'c8
+\f2\b0\fs22 \
+\cf3 let\cf2  string = \cf4 "adgsdg"\cf2 \
+\cf3 let\cf2  length = string.\cf5 lengthOfBytes\cf2 (using: \cf6 String\cf2 .\cf6 Encoding\cf2 .\cf6 utf8\cf2 )\
+\
+/* 
+\f1\b\fs38 \cf7 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'bb\'f1\'c8\'a1\'c9\'b3\'ba\'d0\'d6\'b8\'b6\'a8\'ce\'c4\'bc\'fe\'bc\'d0\'c2\'b7\'be\'b6
+\f2\b0\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0  */\
+\cf3 let\cf2  filePath = \cf5 NSSearchPathForDirectoriesInDomains\cf2 (\cf6 FileManager\cf2 .\cf6 SearchPathDirectory\cf2 .\cf5 documentDirectory\cf2 , \cf6 FileManager\cf2 .\cf6 SearchPathDomainMask\cf2 .\cf6 userDomainMask\cf2 , \cf3 true\cf2 ).\cf6 last\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d1\'d3\'b3\'d9
+\f2 5
+\f1 \'c3\'eb\'bc\'d3\'d4\'d8\
+//
+\f2 \cf6 Double\cf2 (\cf6 Int64\cf2 (\cf9 5\cf2  * \cf6 NSEC_PER_SEC\cf2 )) / \cf6 Double\cf2 (\cf6 NSEC_PER_SEC\cf2 )\cf8 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf6 DispatchQueue\cf2 .\cf6 main\cf2 .\cf5 asyncAfter\cf2 (deadline: \cf6 DispatchTime\cf2 .\cf5 now\cf2 () + \cf6 5\cf2 ) \{\
+        \}\
+        \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d2\'ec\'b2\'bd\'bb\'d8\'b5\'bd\'d6\'f7\'cf\'df\'b3\'cc
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf2  \cf6 DispatchQueue\cf2 .\cf6 main\cf2 .\cf5 async\cf2  \{\
+            \cf3 let\cf2  mainThread = \cf6 Thread\cf2 .\cf6 current\cf2 \
+            \cf5 print\cf2 (mainThread)\
+        \}\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d6\'bb\'c4\'dc\'d4\'da\'b5\'b1\'c7\'b0\'ce\'c4\'bc\'fe\'c4\'da\'b7\'c3\'ce\'ca
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 fileprivate\cf2  \cf3 var\cf2  value = \cf9 0\cf2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d6\'bb\'c4\'dc\'d4\'da\'b5\'b1\'c7\'b0\'b4\'f3\'c0\'a8\'ba\'c5\'c4\'da\'b7\'c3\'ce\'ca
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 private\cf2  \cf3 var\cf2   valuep = \cf9 1\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //Swfit3.0
+\f1 \'d6\'d0\'a3\'ac\'b7\'c3\'ce\'ca\'bf\'d8\'d6\'c6\'c8\'a8\'cf\'de\'d3\'c9\'b8\'df\'b5\'bd\'b5\'cd\'d2\'c0\'b4\'ce\'ce\'aa\'a3\'ba
+\f2 open
+\f1 \'a1\'a2
+\f2 public
+\f1 \'a1\'a2
+\f2 internal
+\f1 \'a3\'a8\'c4\'ac\'c8\'cf\'a3\'a9\'a1\'a2
+\f2 fileprivate
+\f1 \'a3\'ac
+\f2 private
+\f1 \'a1\'a3\
+\
+
+\f2 /// 
+\f1 \'d5\'e2\'d6\'d6\'d0\'b4\'b7\'a8\'ca\'c7\'d5\'fd\'c8\'b7\'b5\'c4\'a3\'a8\'d3\'eb\'b9\'d9\'b7\'bd\'b7\'e7\'b8\'f1\'d2\'bb\'d6\'c2\'a3\'ac\'cd\'c6\'bc\'f6\'ca\'b9\'d3\'c3
+\f2  
+\f1 \'ca\'d7\'d7\'d6\'c4\'b8\'d0\'a1\'d0\'b4\'a3\'a9
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 enum\cf2  Direction: \cf6 String\cf2  \{\
+    \cf3 case\cf2  east   = \cf4 "east"\cf2 \
+    \cf3 case\cf2  south  = \cf4 "south"\cf2 \
+    \cf3 case\cf2  west   = \cf4 "west"\cf2 \
+    \cf3 case\cf2  north  = \cf4 "north"\cf2 \
+\}\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'c4\'a3\'cc\'ac
+\f2 \cf2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 self\cf2 .\cf5 present\cf2 (viewController, animated: \cf3 true\cf2 , completion: \cf3 nil\cf2 )\
+\cf3 self\cf2 .\cf5 dismiss\cf2 (animated: \cf3 true\cf2 , completion: \cf3 nil\cf2 )\
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'b7\'bd\'b7\'a8\'b5\'f7\'d3\'c3
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf2  foo(<#T##value1: Int##Int#>, and: <#T##Int#>)\
+    \cf8 //_  for   
+\f1 \'cd\'e2\'b2\'bf\'c3\'fb
+\f2   ,  value1
+\f1 \'a1\'a2
+\f2 value2
+\f1 \'c4\'da\'b2\'bf\'c3\'fb
+\f2 \
+\cf3 func\cf2  foo(\cf3 _\cf2  value1: \cf6 Int\cf2 , and value1: \cf6 Int\cf2 ) -> \cf6 Int\cf2  \{\
+        \cf3 return\cf2  value1 + value2;\
+    \}\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'ca\'fd\'d7\'e9
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 var\cf2  dataArray  = [\cf3 Any\cf2 ]()\
+\cf3 var\cf2  dataArray : [\cf3 Any\cf2 ]?\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d7\'d6\'b5\'e4
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 var\cf2  dataDict = [\cf6 String\cf2  : \cf3 Any\cf2 ]()\
+\cf3 var\cf2  dataDict : [\cf6 String\cf2  : \cf3 Any\cf2 ]?\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d7\'d6\'b5\'e4\'c7\'b6\'cc\'d7\'ca\'fd\'d7\'e9
+\f2   for in 
+\f1 \'b1\'e9\'c0\'fa\'d7\'d6\'b5\'e4
+\f2  (kind, numbers) --> (key, value)\cf2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 let\cf2  interestingNumbers = [\
+    \cf4 "Prime"\cf2 : [\cf9 2\cf2 , \cf9 3\cf2 , \cf9 5\cf2 , \cf9 7\cf2 , \cf9 11\cf2 , \cf9 13\cf2 ],\
+    \cf4 "Fibonacci"\cf2 : [\cf9 1\cf2 , \cf9 1\cf2 , \cf9 2\cf2 , \cf9 3\cf2 , \cf9 5\cf2 , \cf9 8\cf2 ],\
+    \cf4 "Square"\cf2 : [\cf9 1\cf2 , \cf9 4\cf2 , \cf9 9\cf2 , \cf9 16\cf2 , \cf9 25\cf2 ],\
+    ]\
+\cf3 var\cf2  largest = \cf9 0\cf2 \
+\cf3 for\cf2  (kind, numbers) \cf3 in\cf2  interestingNumbers \{\
+    \cf5 print\cf2 (kind)\
+    \cf3 for\cf2  number \cf3 in\cf2  numbers \{\
+        \cf3 if\cf2  number > largest \{\
+            largest = number\
+        \}\
+    \}\
+\}\
+\cf5 print\cf2 (\cf4 "
+\f1 \'d7\'ee\'b4\'f3\'ca\'fd
+\f2 : "\cf2  \cf5 +\cf2  \cf4 "\cf2 \\\cf4 (\cf2 largest\cf4 )"\cf2 )\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //0..<4  
+\f1 \'b4\'f3\'d3\'da\'b5\'c8\'d3\'da
+\f2 0  
+\f1 \'d0\'a1\'d3\'da
+\f2 4\
+//0...4  
+\f1 \'b4\'f3\'d3\'da\'b5\'c8\'d3\'da
+\f2 4  
+\f1 \'d0\'a1\'d3\'da\'b5\'c8\'d3\'da
+\f2 4\
+//
+\f1 \'ca\'b9\'d3\'c3
+\f2 ..<
+\f1 \'b4\'b4\'bd\'a8\'b5\'c4\'b7\'b6\'ce\'a7\'b2\'bb\'b0\'fc\'ba\'ac\'c9\'cf\'bd\'e7\'a3\'ac\'c8\'e7\'b9\'fb\'cf\'eb\'b0\'fc\'ba\'ac\'b5\'c4\'bb\'b0\'d0\'e8\'d2\'aa\'ca\'b9\'d3\'c3
+\f2 ...\cf2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 for\cf2  i \cf3 in\cf2  \cf9 0\cf2 ..<\cf9 4\cf2  \{\
+    \cf5 print\cf2 (i)\
+\}\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'ca\'b9\'d3\'c3\'d4\'aa\'d7\'e9\'c0\'b4\'c8\'c3\'d2\'bb\'b8\'f6\'ba\'af\'ca\'fd\'b7\'b5\'bb\'d8\'b6\'e0\'b8\'f6\'d6\'b5\'a1\'a3\'b8\'c3\'d4\'aa\'d7\'e9\'b5\'c4\'d4\'aa\'cb\'d8\'bf\'c9\'d2\'d4\'d3\'c3\'c3\'fb\'b3\'c6\'bb\'f2\'ca\'fd\'d7\'d6\'c0\'b4\'b1\'ed\'ca\'be\'a1\'a3
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 func\cf2  calculateStatistics(scores: [\cf6 Int\cf2 ]) -> (min: \cf6 Int\cf2 , max: \cf6 Int\cf2 , sum: \cf6 Int\cf2 ) \{\
+    \cf3 var\cf2  min = scores[\cf9 0\cf2 ]\
+    \cf3 var\cf2  max = scores[\cf9 0\cf2 ]\
+    \cf3 var\cf2  sum = \cf9 0\cf2 \
+    \
+    \cf3 for\cf2  score \cf3 in\cf2  scores \{\
+        \cf3 if\cf2  score > max \{\
+            max = score\
+        \} \cf3 else\cf2  \cf3 if\cf2  score < min \{\
+            min = score\
+        \}\
+        sum += score\
+    \}\
+    \
+    \cf3 return\cf2  (min, max, sum)\
+\}\
+\cf3 let\cf2  statistics = \cf10 calculateStatistics\cf2 (scores:[\cf9 5\cf2 , \cf9 3\cf2 , \cf9 100\cf2 , \cf9 3\cf2 , \cf9 9\cf2 ])\
+\cf5 print\cf2 (statistics.sum)\
+\cf5 print\cf2 (statistics.\cf9 2\cf2 )\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //Int... 
+\f1 \'ba\'af\'ca\'fd\'bf\'c9\'d2\'d4\'b4\'f8\'d3\'d0\'bf\'c9\'b1\'e4\'b8\'f6\'ca\'fd\'b5\'c4\'b2\'ce\'ca\'fd\'a3\'ac\'d5\'e2\'d0\'a9\'b2\'ce\'ca\'fd\'d4\'da\'ba\'af\'ca\'fd\'c4\'da\'b1\'ed\'cf\'d6\'ce\'aa\'ca\'fd\'d7\'e9\'b5\'c4\'d0\'ce\'ca\'bd
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 func\cf2  sumOf(\cf3 _\cf2  numbers: \cf6 Int\cf2 ...) -> \cf6 Int\cf2  \{\
+    \cf3 var\cf2  sum = \cf9 0\cf2 \
+    \cf3 for\cf2  number \cf3 in\cf2  numbers \{\
+        sum += number\
+    \}\
+    \cf3 return\cf2  sum\
+\}\
+\cf5 print\cf2 (\cf10 sumOf\cf2 ())\
+\cf5 print\cf2 (\cf10 sumOf\cf2 (\cf9 1\cf2 ,\cf9 2\cf2 ,\cf9 3\cf2 ))\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'ba\'af\'ca\'fd\'bf\'c9\'d2\'d4\'c7\'b6\'cc\'d7
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 func\cf2  returnFifteen() -> \cf6 Int\cf2  \{\
+    \cf3 var\cf2  y = \cf9 10\cf2 \
+    \cf3 func\cf2  add() \{\
+        y += \cf9 5\cf2 \
+    \}\
+    add()\
+    \cf3 return\cf2  y\
+\}\
+print(returnFifteen())\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //$0 $1 $2 
+\f1 \'b4\'fa\'b1\'ed\'b5\'da\'d2\'bb\'b8\'f6
+\f2  
+\f1 \'b5\'da\'b6\'fe\'b8\'f6
+\f2  
+\f1 \'b5\'da\'c8\'fd\'b8\'f6\'b2\'ce\'ca\'fd\
+\pard\pardeftab720\partightenfactor0
+
+\fs34 \cf11 \cb12 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'d7\'d3\'c0\'e0\'c8\'e7\'b9\'fb\'d2\'aa\'d6\'d8\'d0\'b4\'b8\'b8\'c0\'e0\'b5\'c4\'b7\'bd\'b7\'a8\'b5\'c4\'bb\'b0\'a3\'ac\'d0\'e8\'d2\'aa\'d3\'c3
+\f2\fs29\fsmilli14600 \cb13 override
+\f1\fs34 \cb12 \'b1\'ea\'bc\'c7
+\f3 \'97\'97
+\f1 \'c8\'e7\'b9\'fb\'c3\'bb\'d3\'d0\'cc\'ed\'bc\'d3
+\f2\fs29\fsmilli14600 \cb13 override
+\f1\fs34 \cb12 \'be\'cd\'d6\'d8\'d0\'b4\'b8\'b8\'c0\'e0\'b7\'bd\'b7\'a8\'b5\'c4\'bb\'b0\'b1\'e0\'d2\'eb\'c6\'f7\'bb\'e1\'b1\'a8\'b4\'ed\'a1\'a3\'b1\'e0\'d2\'eb\'c6\'f7\'cd\'ac\'d1\'f9\'bb\'e1\'bc\'ec\'b2\'e2
+\f2\fs29\fsmilli14600 \cb13 override
+\f1\fs34 \cb12 \'b1\'ea\'bc\'c7\'b5\'c4\'b7\'bd\'b7\'a8\'ca\'c7\'b7\'f1\'c8\'b7\'ca\'b5\'d4\'da\'b8\'b8\'c0\'e0\'d6\'d0\'a1\'a3\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf11 Swift 
+\f1 \'b0\'b4\'d5\'d5\'b4\'d3
+\f3  0 
+\f1 \'bf\'aa\'ca\'bc\'c3\'bf\'b4\'ce\'bc\'d3
+\f3  1 
+\f1 \'b5\'c4\'b7\'bd\'ca\'bd\'ce\'aa\'d4\'ad\'ca\'bc\'d6\'b5\'bd\'f8\'d0\'d0\'b8\'b3\'d6\'b5\'a3\'ac\'b2\'bb\'b9\'fd\'c4\'e3\'bf\'c9\'d2\'d4\'cd\'a8\'b9\'fd\'cf\'d4\'ca\'bd\'b8\'b3\'d6\'b5\'bd\'f8\'d0\'d0\'b8\'c4\'b1\'e4\'a1\'a3\'d4\'da\'c9\'cf\'c3\'e6\'b5\'c4\'c0\'fd\'d7\'d3\'d6\'d0\'a3\'ac
+\f2\fs27\fsmilli13600 \cb13 Ace
+\f1\fs32 \cb12 \'b1\'bb\'cf\'d4\'ca\'bd\'b8\'b3\'d6\'b5\'ce\'aa
+\f3  1
+\f1 \'a3\'ac\'b2\'a2\'c7\'d2\'ca\'a3\'cf\'c2\'b5\'c4\'d4\'ad\'ca\'bc\'d6\'b5\'bb\'e1\'b0\'b4\'d5\'d5\'cb\'b3\'d0\'f2\'b8\'b3\'d6\'b5\'a1\'a3\'c4\'e3\'d2\'b2\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3\'d7\'d6\'b7\'fb\'b4\'ae\'bb\'f2\'d5\'df\'b8\'a1\'b5\'e3\'ca\'fd\'d7\'f7\'ce\'aa\'c3\'b6\'be\'d9\'b5\'c4\'d4\'ad\'ca\'bc\'d6\'b5\
+\
+\cf14 \'ca\'fd\'d7\'e9\cf11 \'d4\'ca\'d0\'ed\'d4\'da\'ca\'fd\'d7\'e9\'b5\'c4\'c8\'ce\'d2\'e2\'ce\'bb\'d6\'c3\'b2\'e5\'c8\'eb\'d0\'c2\'d4\'aa\'cb\'d8\'bb\'f2\'ca\'c7\'c9\'be\'b3\'fd\'c6\'e4\'d6\'d0\'c8\'ce\'d2\'e2\'ce\'bb\'d6\'c3\'b5\'c4\'d4\'aa\'cb\'d8\'a1\'a3\'b6\'f8\cf14 \'d5\'bb\cf11 \'d6\'bb\'d4\'ca\'d0\'ed\'d4\'da\'bc\'af\'ba\'cf\'b5\'c4\'c4\'a9\'b6\'cb\'cc\'ed\'bc\'d3\'d0\'c2\'b5\'c4\'d4\'aa\'cb\'d8\'a3\'a8\'b3\'c6\'d6\'ae\'ce\'aa\'c8\'eb\'d5\'bb\'a3\'a9\'a1\'a3\'c0\'e0\'cb\'c6\'b5\'c4\'a3\'ac\'d5\'bb\'d2\'b2\'d6\'bb\'c4\'dc\'b4\'d3\'c4\'a9\'b6\'cb\'d2\'c6\'b3\'fd\'d4\'aa\'cb\'d8\'a3\'a8\'b3\'c6\'d6\'ae\'ce\'aa\'b3\'f6\'d5\'bb\'a3\'a9\'a1\'a3
+\fs34 \
+\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf8 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 //
+\f1 \'c0\'e0\'d0\'cd\'b1\'f0\'c3\'fb\'a3\'a8
+\f2 \cf3 typealias
+\f1 \cf8 \'a3\'a9\'be\'cd\'ca\'c7\'b8\'f8\'cf\'d6\'d3\'d0\'c0\'e0\'d0\'cd\'b6\'a8\'d2\'e5\'c1\'ed\'d2\'bb\'b8\'f6\'c3\'fb\'d7\'d6\'a1\'a3\'c4\'e3\'bf\'c9\'d2\'d4\'ca\'b9\'d3\'c3
+\f2 typealias
+\f1 \'b9\'d8\'bc\'fc\'d7\'d6\'c0\'b4\'b6\'a8\'d2\'e5\'c0\'e0\'d0\'cd\'b1\'f0\'c3\'fb\'a1\'a3
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 typealias\cf2  AudioSample = \cf6 UInt32\cf2 \
+\cf3 var\cf2  maxAmplitudeFound = \cf15 AudioSample\cf2 .\cf6 max\cf2 \
+\cf5 print\cf2 (maxAmplitudeFound)\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1\fs38 \'d4\'aa\'d7\'e9
+\fs22 \'a3\'a8
+\f2 a, b, c, d
+\f1 \'a3\'a9
+\f2  
+\f1 \'d4\'aa\'d7\'e9\'c4\'da\'b5\'c4\'d6\'b5\'bf\'c9\'d2\'d4\'ca\'c7\'c8\'ce\'d2\'e2\'c0\'e0\'d0\'cd\'a3\'ac\'b2\'a2\'b2\'bb\'d2\'aa\'c7\'f3\'ca\'c7\'cf\'e0\'cd\'ac\'c0\'e0\'d0\'cd
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 let\cf2  http200Status = (statusCode: \cf9 200\cf2 , description: \cf4 "OK"\cf2 )\
+\cf5 print\cf2 (\cf4 "The status code is \cf2 \\\cf4 (\cf2 http200Status.statusCode\cf4 )"\cf2 )\
+\cf5 print\cf2 (\cf4 "The status message is \cf2 \\\cf4 (\cf2 http200Status.description\cf4 )"\cf2 )\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1\fs36 \'b1\'c8\'bd\'cf\'d4\'aa\'d7\'e9\'b4\'f3\'d0\'a1
+\fs22 \'bb\'e1\'b0\'b4\'d5\'d5\'b4\'d3\'d7\'f3\'b5\'bd\'d3\'d2\'a1\'a2\'d6\'f0\'d6\'b5\'b1\'c8\'bd\'cf\'b5\'c4\'b7\'bd\'ca\'bd\'a3\'ac\'d6\'b1\'b5\'bd\'b7\'a2\'cf\'d6\'d3\'d0\'c1\'bd\'b8\'f6\'d6\'b5\'b2\'bb\'b5\'c8\'ca\'b1\'cd\'a3\'d6\'b9\'a1\'a3\'c8\'e7\'b9\'fb\'cb\'f9\'d3\'d0\'b5\'c4\'d6\'b5\'b6\'bc\'cf\'e0\'b5\'c8\'a3\'ac\'c4\'c7\'c3\'b4\'d5\'e2\'d2\'bb\'b6\'d4\'d4\'aa\'d7\'e9\'ce\'d2\'c3\'c7\'be\'cd\'b3\'c6\'cb\'fc\'c3\'c7\'ca\'c7\'cf\'e0\'b5\'c8\'b5\'c4\'a1\'a3
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf2 (\cf9 1\cf2 , \cf4 "zebra"\cf2 ) < (\cf9 2\cf2 , \cf4 "apple"\cf2 )   \cf8 // true
+\f1 \'a3\'ac\'d2\'f2\'ce\'aa
+\f2  1 
+\f1 \'d0\'a1\'d3\'da
+\f2  2\
+\cf2 (\cf9 3\cf2 , \cf4 "apple"\cf2 ) < (\cf9 3\cf2 , \cf4 "bird"\cf2 )    \cf8 // true
+\f1 \'a3\'ac\'d2\'f2\'ce\'aa
+\f2  3 
+\f1 \'b5\'c8\'d3\'da
+\f2  3
+\f1 \'a3\'ac\'b5\'ab\'ca\'c7
+\f2  apple 
+\f1 \'d0\'a1\'d3\'da
+\f2  bird\
+\cf2 (\cf9 4\cf2 , \cf4 "dog"\cf2 ) == (\cf9 4\cf2 , \cf4 "dog"\cf2 )      \cf8 // true
+\f1 \'a3\'ac\'d2\'f2\'ce\'aa
+\f2  4 
+\f1 \'b5\'c8\'d3\'da
+\f2  4
+\f1 \'a3\'ac
+\f2 dog 
+\f1 \'b5\'c8\'d3\'da
+\f2  dog\cf2 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs26 \cf16 \cb12 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'d7\'a2\'d2\'e2\'a3\'ba
+\f3 \cb1 \
+\cb12 Swift 
+\f1 \'b1\'ea\'d7\'bc\'bf\'e2\'d6\'bb\'c4\'dc\'b1\'c8\'bd\'cf\'c6\'df\'b8\'f6\'d2\'d4\'c4\'da\'d4\'aa\'cb\'d8\'b5\'c4\'d4\'aa\'d7\'e9\'b1\'c8\'bd\'cf\'ba\'af\'ca\'fd\'a1\'a3\'c8\'e7\'b9\'fb\'c4\'e3\'b5\'c4\'d4\'aa\'d7\'e9\'d4\'aa\'cb\'d8\'b3\'ac\'b9\'fd\'c6\'df\'b8\'f6\'ca\'b1\'a3\'ac\'c4\'e3\'d0\'e8\'d2\'aa\'d7\'d4\'bc\'ba\'ca\'b5\'cf\'d6\'b1\'c8\'bd\'cf\'d4\'cb\'cb\'e3\'b7\'fb\'a1\'a3
+\f3\fs32 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf11 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf2 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf16 \cb12 \expnd0\expndtw0\kerning0
+\CocoaLigature1 Swift 
+\f1 \'b5\'c4
+\f3  
+\f2\fs27\fsmilli13600 \cb13 nil
+\f3\fs32 \cb12  
+\f1 \'ba\'cd
+\f3  Objective-C 
+\f1 \'d6\'d0\'b5\'c4
+\f3  
+\f2\fs27\fsmilli13600 \cb13 nil
+\f3\fs32 \cb12  
+\f1 \'b2\'a2\'b2\'bb\'d2\'bb\'d1\'f9\'a1\'a3\'d4\'da
+\f3  Objective-C 
+\f1 \'d6\'d0\'a3\'ac
+\f2\fs27\fsmilli13600 \cb13 nil
+\f3\fs32 \cb12  
+\f1 \'ca\'c7\'d2\'bb\'b8\'f6\'d6\'b8\'cf\'f2\'b2\'bb\'b4\'e6\'d4\'da\'b6\'d4\'cf\'f3\'b5\'c4\'d6\'b8\'d5\'eb\'a1\'a3\'d4\'da
+\f3  Swift 
+\f1 \'d6\'d0\'a3\'ac
+\f2\fs27\fsmilli13600 \cb13 nil
+\f3\fs32 \cb12  
+\f1 \'b2\'bb\'ca\'c7\'d6\'b8\'d5\'eb
+\f3 \'97\'97
+\f1 \'cb\'fc\'ca\'c7\'d2\'bb\'b8\'f6\'c8\'b7\'b6\'a8\'b5\'c4\'d6\'b5\'a3\'ac\'d3\'c3\'c0\'b4\'b1\'ed\'ca\'be\'d6\'b5\'c8\'b1\'ca\'a7\'a1\'a3\'c8\'ce\'ba\'ce\'c0\'e0\'d0\'cd\'b5\'c4\'bf\'c9\'d1\'a1\'d7\'b4\'cc\'ac\'b6\'bc\'bf\'c9\'d2\'d4\'b1\'bb\'c9\'e8\'d6\'c3\'ce\'aa
+\f3  
+\f2\fs27\fsmilli13600 \cb13 nil
+\f1\fs32 \cb12 \'a3\'ac\'b2\'bb\'d6\'bb\'ca\'c7\'b6\'d4\'cf\'f3\'c0\'e0\'d0\'cd\'a1\'a3\
+\pard\pardeftab720\partightenfactor0
+\cf11   \
+ \'a1\'b0?\'a1\'b1 \'bf\'c9\'d1\'a1    \'a1\'aa>   \'a1\'b0!\'a1\'b1 \'c7\'bf\'d6\'c6\'bd\'e2\'ce\'f6\'a3\'a8
+\f3\i forced unwrapping
+\f1\i0 \'a3\'a9\'b1\'ed\'ca\'be
+\f3 \'93
+\f1 \'ce\'d2\'d6\'aa\'b5\'c0\'d5\'e2\'b8\'f6\'bf\'c9\'d1\'a1\'d3\'d0\'d6\'b5\'a3\'ac\'c7\'eb\'ca\'b9\'d3\'c3\'cb\'fc\'a1\'a3
+\f3 \'94\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf16 \'ca\'b9\'d3\'c3
+\f3  
+\f2\fs27\fsmilli13600 \cb13 !
+\f3\fs32 \cb12  
+\f1 \'c0\'b4\'bb\'f1\'c8\'a1\'d2\'bb\'b8\'f6\'b2\'bb\'b4\'e6\'d4\'da\'b5\'c4\'bf\'c9\'d1\'a1\'d6\'b5\'bb\'e1\'b5\'bc\'d6\'c2\'d4\'cb\'d0\'d0\'ca\'b1\'b4\'ed\'ce\'f3\'a1\'a3\'ca\'b9\'d3\'c3
+\f3  
+\f2\fs27\fsmilli13600 \cb13 !
+\f3\fs32 \cb12  
+\f1 \'c0\'b4\'c7\'bf\'d6\'c6\'bd\'e2\'ce\'f6\'d6\'b5\'d6\'ae\'c7\'b0\'a3\'ac\'d2\'bb\'b6\'a8\'d2\'aa\'c8\'b7\'b6\'a8\'bf\'c9\'d1\'a1\'b0\'fc\'ba\'ac\'d2\'bb\'b8\'f6\'b7\'c7
+\f3  
+\f2\fs27\fsmilli13600 \cb13 nil
+\f3\fs32 \cb12  
+\f1 \'b5\'c4\'d6\'b5\'a1\'a3\
+\
+\pard\pardeftab720\partightenfactor0
+\cf11 \'d2\'bb\'b8\'f6\'d2\'fe\'ca\'bd\'bd\'e2\'ce\'f6\'bf\'c9\'d1\'a1\'c0\'e0\'d0\'cd\'c6\'e4\'ca\'b5\'be\'cd\'ca\'c7\'d2\'bb\'b8\'f6\'c6\'d5\'cd\'a8\'b5\'c4\'bf\'c9\'d1\'a1\'c0\'e0\'d0\'cd\'a3\'ac\'b5\'ab\'ca\'c7\'bf\'c9\'d2\'d4\'b1\'bb\'b5\'b1\'d7\'f6\'b7\'c7\'bf\'c9\'d1\'a1\'c0\'e0\'d0\'cd\'c0\'b4\'ca\'b9\'d3\'c3\'a3\'ac\'b2\'a2\'b2\'bb\'d0\'e8\'d2\'aa\'c3\'bf\'b4\'ce\'b6\'bc\'ca\'b9\'d3\'c3\'bd\'e2\'ce\'f6\'c0\'b4\'bb\'f1\'c8\'a1\'bf\'c9\'d1\'a1\'d6\'b5\'a1\'a3\cf16 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2\fs22 \cf3 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 let\cf2  possibleString: \cf6 String\cf2 ? = \cf4 "An optional string."\cf2 \
+\cf3 let\cf2  forcedString: \cf6 String\cf2  = possibleString! \cf8 // 
+\f1 \'d0\'e8\'d2\'aa\'b8\'d0\'cc\'be\'ba\'c5\'c0\'b4\'bb\'f1\'c8\'a1\'d6\'b5
+\f2 \
+\cf2 \
+\cf3 let\cf2  assumedString: \cf6 String\cf2 ! = \cf4 "An implicitly unwrapped optional string."\cf2 \
+\cf3 let\cf2  implicitString: \cf6 String\cf2  = assumedString  \cf8 // 
+\f1 \'b2\'bb\'d0\'e8\'d2\'aa\'b8\'d0\'cc\'be\'ba\'c5\
+\
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\fs36 \cf8 //\'b6\'cf\'d1\'d4\'ca\'b9\'d3\'c3
+\fs22 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\f2 \cf3 let\cf2  age = \cf9 -3\cf2 \
+\cf5 assert\cf2 (age > \cf9 0\cf2 , \cf4 "A person's age cannot be less than zero"\cf2 )\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs40 \cf11 \cb12 \expnd0\expndtw0\kerning0
+\CocoaLigature1 \'bf\'d5\'ba\'cf\'d4\'cb\'cb\'e3\'b7\'fb
+\fs32 \'a3\'a8
+\f2\fs27\fsmilli13600 \cb13 a ?? b
+\f1\fs32 \cb12 \'a3\'a9\'bd\'ab\'b6\'d4\'bf\'c9\'d1\'a1\'c0\'e0\'d0\'cd
+\f3  
+\f2\fs27\fsmilli13600 \cb13 a
+\f3\fs32 \cb12  
+\f1 \'bd\'f8\'d0\'d0\'bf\'d5\'c5\'d0\'b6\'cf\'a3\'ac\'c8\'e7\'b9\'fb
+\f3  
+\f2\fs27\fsmilli13600 \cb13 a
+\f3\fs32 \cb12  
+\f1 \'b0\'fc\'ba\'ac\'d2\'bb\'b8\'f6\'d6\'b5\'be\'cd\'bd\'f8\'d0\'d0\'bd\'e2\'b7\'e2\'a3\'ac\'b7\'f1\'d4\'f2\'be\'cd\'b7\'b5\'bb\'d8\'d2\'bb\'b8\'f6\'c4\'ac\'c8\'cf\'d6\'b5
+\f3  
+\f2\fs27\fsmilli13600 \cb13 b
+\f1\fs32 \cb12 \'a1\'a3\'b1\'ed\'b4\'ef\'ca\'bd
+\f3  
+\f2\fs27\fsmilli13600 \cb13 a
+\f3\fs32 \cb12  
+\f1 \'b1\'d8\'d0\'eb\'ca\'c7
+\f3  Optional 
+\f1 \'c0\'e0\'d0\'cd\'a1\'a3\'c4\'ac\'c8\'cf\'d6\'b5
+\f3  
+\f2\fs27\fsmilli13600 \cb13 b
+\f3\fs32 \cb12  
+\f1 \'b5\'c4\'c0\'e0\'d0\'cd\'b1\'d8\'d0\'eb\'d2\'aa\'ba\'cd
+\f3  
+\f2\fs27\fsmilli13600 \cb13 a
+\f3\fs32 \cb12  
+\f1 \'b4\'e6\'b4\'a2\'d6\'b5\'b5\'c4\'c0\'e0\'d0\'cd\'b1\'a3\'b3\'d6\'d2\'bb\'d6\'c2\'a1\'a3
+\f2\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+
+\fs36 \cf2 String
+\fs22 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf8 //
+\f1 \'d7\'d6\'b7\'fb\'b4\'ae\'ce\'aa\'bf\'d5
+\f2  
+\f1 \'c7\'e9\'bf\'f6\'ca\'b9\'d3\'c3
+\f2 \
+\pard\tx543\pardeftab543\pardirnatural\partightenfactor0
+\cf3 var\cf2  emptyString = \cf4 ""\cf2  \cf8 // --> var string = String()\
+\cf3 if\cf2  emptyString.\cf6 isEmpty\cf2  \{\
+    emptyString = \cf4 "this is a value string"\cf2 \
+\}\
+\
+\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f3\fs32 \cf11 \cb12 \CocoaLigature1 {\listtext	\'95	}
+\f1 \expnd0\expndtw0\kerning0
+\'d7\'aa\'d2\'e5\'d7\'d6\'b7\'fb
+\f2\fs27\fsmilli13600 \cb13 \\0
+\f3\fs32 \cb12 (
+\f1 \'bf\'d5\'d7\'d6\'b7\'fb
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\\\
+\f3\fs32 \cb12 (
+\f1 \'b7\'b4\'d0\'b1\'cf\'df
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\t
+\f3\fs32 \cb12 (
+\f1 \'cb\'ae\'c6\'bd\'d6\'c6\'b1\'ed\'b7\'fb
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\n
+\f3\fs32 \cb12 (
+\f1 \'bb\'bb\'d0\'d0\'b7\'fb
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\r
+\f3\fs32 \cb12 (
+\f1 \'bb\'d8\'b3\'b5\'b7\'fb
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\"
+\f3\fs32 \cb12 (
+\f1 \'cb\'ab\'d2\'fd\'ba\'c5
+\f3 )
+\f1 \'a1\'a2
+\f2\fs27\fsmilli13600 \cb13 \\'
+\f3\fs32 \cb12 (
+\f1 \'b5\'a5\'d2\'fd\'ba\'c5
+\f3 )
+\f1 \'a1\'a3
+\f3 \cb1 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf11 \cb12 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Unicode 
+\f1 \'b1\'ea\'c1\'bf\'a3\'ac\'d0\'b4\'b3\'c9
+\f2\fs27\fsmilli13600 \cb13 \\u\{n\}
+\f3\fs32 \cb12 (u
+\f1 \'ce\'aa\'d0\'a1\'d0\'b4
+\f3 )
+\f1 \'a3\'ac\'c6\'e4\'d6\'d0
+\f2\fs27\fsmilli13600 \cb13 n
+\f1\fs32 \cb12 \'ce\'aa\'c8\'ce\'d2\'e2\'d2\'bb\'b5\'bd\'b0\'cb\'ce\'bb\'ca\'ae\'c1\'f9\'bd\'f8\'d6\'c6\'ca\'fd\'c7\'d2\'bf\'c9\'d3\'c3\'b5\'c4
+\f3  Unicode 
+\f1 \'ce\'bb\'c2\'eb\'a1\'a3
+\f2\fs22 \cf2 \cb1 \kerning1\expnd0\expndtw0 \CocoaLigature0 \
+}
