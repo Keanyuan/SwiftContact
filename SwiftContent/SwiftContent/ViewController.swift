@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         //        }
 //        StringE.setStringTest()
         
-        ArrayE.setArrayE()
+        LimitE.setLimitE()
         
         
     }

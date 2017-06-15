@@ -25,6 +25,9 @@
 		4E1A2C421EF234670029A3D2 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C381EF234670029A3D2 /* Square.swift */; };
 		4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */; };
 		4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C451EF236470029A3D2 /* ArrayE.swift */; };
+		4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C471EF250DD0029A3D2 /* SetE.swift */; };
+		4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C491EF275070029A3D2 /* DictionaryE.swift */; };
+		4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		4E1A2C381EF234670029A3D2 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
 		4E1A2C451EF236470029A3D2 /* ArrayE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayE.swift; sourceTree = "<group>"; };
+		4E1A2C471EF250DD0029A3D2 /* SetE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetE.swift; sourceTree = "<group>"; };
+		4E1A2C491EF275070029A3D2 /* DictionaryE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryE.swift; sourceTree = "<group>"; };
+		4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,7 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E1A2C4B1EF279AF0029A3D2 /* 控制流 */,
 				4E1A2C441EF235C30029A3D2 /* CollectionTypes */,
 				4E1A2C2E1EF234670029A3D2 /* String */,
 				4E1A2C301EF234670029A3D2 /* SystemStudy */,
@@ -186,8 +193,18 @@
 			isa = PBXGroup;
 			children = (
 				4E1A2C451EF236470029A3D2 /* ArrayE.swift */,
+				4E1A2C471EF250DD0029A3D2 /* SetE.swift */,
+				4E1A2C491EF275070029A3D2 /* DictionaryE.swift */,
 			);
 			path = CollectionTypes;
+			sourceTree = "<group>";
+		};
+		4E1A2C4B1EF279AF0029A3D2 /* 控制流 */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */,
+			);
+			path = "控制流";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +351,9 @@
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
 				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
+				4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */,
+				4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */,
+				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
 				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,
 				4E1A2BFE1EF233090029A3D2 /* AppDelegate.swift in Sources */,
