@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         //        } catch {
         //            // 有一个错误消息抛出
         //        }
-        StringE.setStringTest()
-
+//        StringE.setStringTest()
+        
+        ArrayE.setArrayE()
         
         
     }

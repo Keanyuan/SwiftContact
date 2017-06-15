@@ -24,6 +24,7 @@
 		4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C371EF234670029A3D2 /* SimpleStructure.swift */; };
 		4E1A2C421EF234670029A3D2 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C381EF234670029A3D2 /* Square.swift */; };
 		4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */; };
+		4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C451EF236470029A3D2 /* ArrayE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		4E1A2C371EF234670029A3D2 /* SimpleStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
 		4E1A2C381EF234670029A3D2 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
+		4E1A2C451EF236470029A3D2 /* ArrayE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E1A2C441EF235C30029A3D2 /* CollectionTypes */,
 				4E1A2C2E1EF234670029A3D2 /* String */,
 				4E1A2C301EF234670029A3D2 /* SystemStudy */,
 			);
@@ -177,6 +180,14 @@
 				4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */,
 			);
 			path = SystemStudy;
+			sourceTree = "<group>";
+		};
+		4E1A2C441EF235C30029A3D2 /* CollectionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A2C451EF236470029A3D2 /* ArrayE.swift */,
+			);
+			path = CollectionTypes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */,
 				4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */,
 				4E1A2C3B1EF234670029A3D2 /* Contera.swift in Sources */,
 				4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */,
