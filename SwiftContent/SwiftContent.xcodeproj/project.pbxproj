@@ -14,6 +14,16 @@
 		4E1A2C081EF233090029A3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A2C061EF233090029A3D2 /* LaunchScreen.storyboard */; };
 		4E1A2C131EF233090029A3D2 /* SwiftContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C121EF233090029A3D2 /* SwiftContentTests.swift */; };
 		4E1A2C1E1EF233090029A3D2 /* SwiftContentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C1D1EF233090029A3D2 /* SwiftContentUITests.swift */; };
+		4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C2F1EF234670029A3D2 /* StringE.swift */; };
+		4E1A2C3B1EF234670029A3D2 /* Contera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C311EF234670029A3D2 /* Contera.swift */; };
+		4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C321EF234670029A3D2 /* EquilateralTriangle.swift */; };
+		4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C331EF234670029A3D2 /* Int.swift */; };
+		4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C341EF234670029A3D2 /* IntStack.swift */; };
+		4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C351EF234670029A3D2 /* NamedShape.swift */; };
+		4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C361EF234670029A3D2 /* SimpleClass.swift */; };
+		4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C371EF234670029A3D2 /* SimpleStructure.swift */; };
+		4E1A2C421EF234670029A3D2 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C381EF234670029A3D2 /* Square.swift */; };
+		4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		4E1A2C191EF233090029A3D2 /* SwiftContentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftContentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1A2C1D1EF233090029A3D2 /* SwiftContentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContentUITests.swift; sourceTree = "<group>"; };
 		4E1A2C1F1EF233090029A3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E1A2C2F1EF234670029A3D2 /* StringE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringE.swift; sourceTree = "<group>"; };
+		4E1A2C311EF234670029A3D2 /* Contera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contera.swift; sourceTree = "<group>"; };
+		4E1A2C321EF234670029A3D2 /* EquilateralTriangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquilateralTriangle.swift; sourceTree = "<group>"; };
+		4E1A2C331EF234670029A3D2 /* Int.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		4E1A2C341EF234670029A3D2 /* IntStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntStack.swift; sourceTree = "<group>"; };
+		4E1A2C351EF234670029A3D2 /* NamedShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedShape.swift; sourceTree = "<group>"; };
+		4E1A2C361EF234670029A3D2 /* SimpleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClass.swift; sourceTree = "<group>"; };
+		4E1A2C371EF234670029A3D2 /* SimpleStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStructure.swift; sourceTree = "<group>"; };
+		4E1A2C381EF234670029A3D2 /* Square.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleAndSquare.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,7 @@
 		4E1A2BFC1EF233090029A3D2 /* SwiftContent */ = {
 			isa = PBXGroup;
 			children = (
+				4E1A2C2D1EF234670029A3D2 /* Classes */,
 				4E1A2BFD1EF233090029A3D2 /* AppDelegate.swift */,
 				4E1A2BFF1EF233090029A3D2 /* ViewController.swift */,
 				4E1A2C011EF233090029A3D2 /* Main.storyboard */,
@@ -123,6 +144,39 @@
 				4E1A2C1F1EF233090029A3D2 /* Info.plist */,
 			);
 			path = SwiftContentUITests;
+			sourceTree = "<group>";
+		};
+		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A2C2E1EF234670029A3D2 /* String */,
+				4E1A2C301EF234670029A3D2 /* SystemStudy */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E1A2C2E1EF234670029A3D2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A2C2F1EF234670029A3D2 /* StringE.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		4E1A2C301EF234670029A3D2 /* SystemStudy */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A2C311EF234670029A3D2 /* Contera.swift */,
+				4E1A2C321EF234670029A3D2 /* EquilateralTriangle.swift */,
+				4E1A2C331EF234670029A3D2 /* Int.swift */,
+				4E1A2C341EF234670029A3D2 /* IntStack.swift */,
+				4E1A2C351EF234670029A3D2 /* NamedShape.swift */,
+				4E1A2C361EF234670029A3D2 /* SimpleClass.swift */,
+				4E1A2C371EF234670029A3D2 /* SimpleStructure.swift */,
+				4E1A2C381EF234670029A3D2 /* Square.swift */,
+				4E1A2C391EF234670029A3D2 /* TriangleAndSquare.swift */,
+			);
+			path = SystemStudy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +313,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */,
+				4E1A2C3B1EF234670029A3D2 /* Contera.swift in Sources */,
+				4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */,
+				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
 				4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */,
+				4E1A2C421EF234670029A3D2 /* Square.swift in Sources */,
+				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
+				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
+				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
+				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
+				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,
 				4E1A2BFE1EF233090029A3D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +571,7 @@
 				4E1A2C241EF233090029A3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E1A2C251EF233090029A3D2 /* Build configuration list for PBXNativeTarget "SwiftContentTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +580,7 @@
 				4E1A2C271EF233090029A3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E1A2C281EF233090029A3D2 /* Build configuration list for PBXNativeTarget "SwiftContentUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +589,7 @@
 				4E1A2C2A1EF233090029A3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
