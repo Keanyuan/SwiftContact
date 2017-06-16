@@ -28,6 +28,14 @@
 		4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C471EF250DD0029A3D2 /* SetE.swift */; };
 		4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C491EF275070029A3D2 /* DictionaryE.swift */; };
 		4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */; };
+		4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */; };
+		4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */; };
+		4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */; };
+		4EE6E3531EF3B1B900EB19C4 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3521EF3B1B900EB19C4 /* Resolution.swift */; };
+		4EE6E3551EF3C37200EB19C4 /* AudioChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3541EF3C37200EB19C4 /* AudioChannel.swift */; };
+		4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3561EF3D0CA00EB19C4 /* LevelTracker.swift */; };
+		4EE6E3591EF3D2C300EB19C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3581EF3D2C300EB19C4 /* Player.swift */; };
+		4EE6E35C1EF3D61B00EB19C4 /* TimesTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E35B1EF3D61B00EB19C4 /* TimesTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +83,14 @@
 		4E1A2C471EF250DD0029A3D2 /* SetE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetE.swift; sourceTree = "<group>"; };
 		4E1A2C491EF275070029A3D2 /* DictionaryE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryE.swift; sourceTree = "<group>"; };
 		4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitE.swift; sourceTree = "<group>"; };
+		4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionE.swift; sourceTree = "<group>"; };
+		4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureE.swift; sourceTree = "<group>"; };
+		4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumE.swift; sourceTree = "<group>"; };
+		4EE6E3521EF3B1B900EB19C4 /* Resolution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
+		4EE6E3541EF3C37200EB19C4 /* AudioChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioChannel.swift; sourceTree = "<group>"; };
+		4EE6E3561EF3D0CA00EB19C4 /* LevelTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelTracker.swift; sourceTree = "<group>"; };
+		4EE6E3581EF3D2C300EB19C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4EE6E35B1EF3D61B00EB19C4 /* TimesTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +173,11 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4EE6E35A1EF3D53B00EB19C4 /* 2.12下标 */,
+				4EE6E3511EF3AE5800EB19C4 /* 类和结构体 */,
+				4EE6E34E1EF3A41800EB19C4 /* 枚举 */,
+				4EE6E34B1EF37C0600EB19C4 /* 闭包 */,
+				4EE6E3441EF36EA100EB19C4 /* 函数 */,
 				4E1A2C4B1EF279AF0029A3D2 /* 控制流 */,
 				4E1A2C441EF235C30029A3D2 /* CollectionTypes */,
 				4E1A2C2E1EF234670029A3D2 /* String */,
@@ -205,6 +226,49 @@
 				4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */,
 			);
 			path = "控制流";
+			sourceTree = "<group>";
+		};
+		4EE6E3441EF36EA100EB19C4 /* 函数 */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */,
+			);
+			path = "函数";
+			sourceTree = "<group>";
+		};
+		4EE6E34B1EF37C0600EB19C4 /* 闭包 */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */,
+			);
+			path = "闭包";
+			sourceTree = "<group>";
+		};
+		4EE6E34E1EF3A41800EB19C4 /* 枚举 */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */,
+			);
+			path = "枚举";
+			sourceTree = "<group>";
+		};
+		4EE6E3511EF3AE5800EB19C4 /* 类和结构体 */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6E3521EF3B1B900EB19C4 /* Resolution.swift */,
+				4EE6E3541EF3C37200EB19C4 /* AudioChannel.swift */,
+				4EE6E3561EF3D0CA00EB19C4 /* LevelTracker.swift */,
+				4EE6E3581EF3D2C300EB19C4 /* Player.swift */,
+			);
+			path = "类和结构体";
+			sourceTree = "<group>";
+		};
+		4EE6E35A1EF3D53B00EB19C4 /* 2.12下标 */ = {
+			isa = PBXGroup;
+			children = (
+				4EE6E35B1EF3D61B00EB19C4 /* TimesTable.swift */,
+			);
+			path = "2.12下标";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,15 +408,23 @@
 				4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */,
 				4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */,
 				4E1A2C3B1EF234670029A3D2 /* Contera.swift in Sources */,
+				4EE6E3531EF3B1B900EB19C4 /* Resolution.swift in Sources */,
+				4EE6E3591EF3D2C300EB19C4 /* Player.swift in Sources */,
+				4EE6E35C1EF3D61B00EB19C4 /* TimesTable.swift in Sources */,
 				4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */,
+				4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */,
 				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
 				4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */,
 				4E1A2C421EF234670029A3D2 /* Square.swift in Sources */,
+				4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */,
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
+				4EE6E3551EF3C37200EB19C4 /* AudioChannel.swift in Sources */,
 				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
+				4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */,
 				4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */,
 				4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */,
+				4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */,
 				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
 				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,

@@ -26,8 +26,35 @@ class ViewController: UIViewController {
         //        }
 //        StringE.setStringTest()
         
-        LimitE.setLimitE()
+//        EnumE.setEnumE()
         
+        //不能在结构体类型的常量（a constant of structure type）上调用可变方法，因为其属性不能被改变，即使属性是变量属性，详情参见常量结构体的存储属性：
+        var leftChannel = AudioChannel(x: 1.0, y: 1.0, currentLevel: 7)
+        var rightChannel = AudioChannel()
+        leftChannel.currentLevel = 7
+        print(leftChannel.currentLevel)
+        print(AudioChannel.maxInputLevelForAllChannels)
+        leftChannel.moveByX(deltaX: 2.0, y: 3.0)
+        print("x== \(leftChannel.x)" + " y== \(leftChannel.y)")
+        rightChannel.currentLevel = 11
+        print(rightChannel.currentLevel)
+        print(AudioChannel.maxInputLevelForAllChannels)
+        
+        
+        var player = Player(name: "Argyrios")
+        player.complete(level: 1)
+        print("highest unlocked level is now \(LevelTracker.highestUnlockLevel)")
+        player = Player(name: "Beto")
+        if player.tracker.advance(to: 6) {
+            print("player is now on level 6")
+        } else {
+            print("level 6 has not yet been unlocked")
+        }
+        
+        
+        let threeTimesTable = TimesTable(multiplier: 3)
+        print("six times three is \(threeTimesTable[6])")
+        //上面演示的threeTimesTable[6]。这条语句查询了3的乘法表中的第六个元素，返回3的6倍即18
         
     }
 
