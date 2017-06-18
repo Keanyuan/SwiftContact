@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEFA4101EF424AF00F0E279 /* ALMacro.swift */; };
 		4E1A2BFE1EF233090029A3D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2BFD1EF233090029A3D2 /* AppDelegate.swift */; };
 		4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2BFF1EF233090029A3D2 /* ViewController.swift */; };
 		4E1A2C031EF233090029A3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A2C011EF233090029A3D2 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CEFA4101EF424AF00F0E279 /* ALMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALMacro.swift; sourceTree = "<group>"; };
 		4E1A2BFA1EF233090029A3D2 /* SwiftContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E1A2BFD1EF233090029A3D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E1A2BFF1EF233090029A3D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CEFA40F1EF424A400F0E279 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0CEFA4101EF424AF00F0E279 /* ALMacro.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		4E1A2BF11EF233090029A3D2 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +183,7 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0CEFA40F1EF424A400F0E279 /* Common */,
 				4EE6E35A1EF3D53B00EB19C4 /* 2.12下标 */,
 				4EE6E3511EF3AE5800EB19C4 /* 类和结构体 */,
 				4EE6E34E1EF3A41800EB19C4 /* 枚举 */,
@@ -424,6 +435,7 @@
 				4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */,
 				4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */,
 				4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */,
+				0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */,
 				4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */,
 				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
