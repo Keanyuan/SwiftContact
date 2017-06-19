@@ -102,6 +102,17 @@ class ArrayE: NSObject {
         for (index, value) in shoppingList.enumerated() {
             print("Item \(String(index + 1)): \(value)")
         }
+        
+        
+        var arrayo = ["Mazy", "Lucy", "Lily", "Vivian", "Owen"]
+        
+        let ele = randomElementFromArray(arrayo)
+        
+        
+        printLog(ele)
+        
+        printLog(arrayo.shuffleUseSort())
+        
 
     }
 }

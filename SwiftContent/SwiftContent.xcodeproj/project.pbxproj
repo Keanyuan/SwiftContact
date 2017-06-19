@@ -29,6 +29,7 @@
 		4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C471EF250DD0029A3D2 /* SetE.swift */; };
 		4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C491EF275070029A3D2 /* DictionaryE.swift */; };
 		4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */; };
+		4E4DD2841EF75751003CD2D4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */; };
 		4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */; };
 		4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */; };
 		4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */; };
@@ -85,6 +86,7 @@
 		4E1A2C471EF250DD0029A3D2 /* SetE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetE.swift; sourceTree = "<group>"; };
 		4E1A2C491EF275070029A3D2 /* DictionaryE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryE.swift; sourceTree = "<group>"; };
 		4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitE.swift; sourceTree = "<group>"; };
+		4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionE.swift; sourceTree = "<group>"; };
 		4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureE.swift; sourceTree = "<group>"; };
 		4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumE.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E4DD2821EF75731003CD2D4 /* 扩展 */,
 				0CEFA40F1EF424A400F0E279 /* Common */,
 				4EE6E35A1EF3D53B00EB19C4 /* 2.12下标 */,
 				4EE6E3511EF3AE5800EB19C4 /* 类和结构体 */,
@@ -237,6 +240,14 @@
 				4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */,
 			);
 			path = "控制流";
+			sourceTree = "<group>";
+		};
+		4E4DD2821EF75731003CD2D4 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */,
+			);
+			path = "扩展";
 			sourceTree = "<group>";
 		};
 		4EE6E3441EF36EA100EB19C4 /* 函数 */ = {
@@ -427,6 +438,7 @@
 				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
 				4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */,
 				4E1A2C421EF234670029A3D2 /* Square.swift in Sources */,
+				4E4DD2841EF75751003CD2D4 /* Array+Extension.swift in Sources */,
 				4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */,
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,

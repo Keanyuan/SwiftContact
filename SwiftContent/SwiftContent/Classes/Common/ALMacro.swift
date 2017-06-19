@@ -30,6 +30,14 @@ let isIPhone6P = SCREENH == 736 ? true : false
 let UIRate = (UIScreen.main.bounds.size.width/375)
 
 
+/// prin输出
+///
+/// - Parameters:
+///   - message: 输出内容
+///   - logError: 是否错误 default is false
+///   - file: 输出文件位置
+///   - method: 对应方法
+///   - line: 所在行
 func printLog<T>(_ message: T,
               _ logError: Bool = false,
               file: String = #file,
@@ -44,3 +52,13 @@ func printLog<T>(_ message: T,
         #endif
     }
 }
+
+/// 利用泛型获取随机数组中的一个元素
+///
+/// - Parameter array: 传入的数组
+/// - Returns: 返回数组中一个随机元素
+func randomElementFromArray<T>(_ array:Array<T>) -> T {
+    let index: Int = Int(arc4random_uniform(UInt32(array.count)))
+    return array[index]
+}
+

@@ -26,8 +26,22 @@ class ViewController: UIViewController {
         //        }
 //        StringE.setStringTest()
         
-//        EnumE.setEnumE()
+        ArrayE.setArrayE()
         
+    }
+    
+    
+
+
+
+}
+
+
+
+extension ViewController {
+    
+    
+    func ca() {
         //不能在结构体类型的常量（a constant of structure type）上调用可变方法，因为其属性不能被改变，即使属性是变量属性，详情参见常量结构体的存储属性：
         var leftChannel = AudioChannel(x: 1.0, y: 1.0, currentLevel: 7)
         var rightChannel = AudioChannel()
@@ -55,15 +69,7 @@ class ViewController: UIViewController {
         let threeTimesTable = TimesTable(multiplier: 3)
         printLog("six times three is \(threeTimesTable[6])")
         //上面演示的threeTimesTable[6]。这条语句查询了3的乘法表中的第六个元素，返回3的6倍即18
-        
     }
-
-
-
-}
-
-
-extension ViewController {
     
     func canThrowAnError() throws {
         // 这个函数有可能抛出错误
