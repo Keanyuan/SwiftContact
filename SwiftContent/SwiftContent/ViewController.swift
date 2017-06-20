@@ -12,6 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let  imageView = UIImageView()
+        let image = UIImage(named: "")
+        image?.ld_imageCornerSize(with: (image?.size)!, fill: UIColor.white, completion: { (imageName) in
+            imageView.image = imageName
+        })
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         //        enmuTest()
