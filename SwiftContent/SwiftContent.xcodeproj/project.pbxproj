@@ -31,6 +31,27 @@
 		4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C471EF250DD0029A3D2 /* SetE.swift */; };
 		4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C491EF275070029A3D2 /* DictionaryE.swift */; };
 		4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */; };
+		4E4DD2841EF75751003CD2D4 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */; };
+		4E4DD2861EF764FC003CD2D4 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2851EF764FC003CD2D4 /* Matrix.swift */; };
+		4E4DD2891EF768A5003CD2D4 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2881EF768A5003CD2D4 /* Vehicle.swift */; };
+		4E4DD28B1EF769BD003CD2D4 /* Bicycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD28A1EF769BD003CD2D4 /* Bicycle.swift */; };
+		4E4DD28D1EF76A47003CD2D4 /* Tandem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD28C1EF76A47003CD2D4 /* Tandem.swift */; };
+		4E4DD2921EF794F7003CD2D4 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2911EF794F7003CD2D4 /* Food.swift */; };
+		4E4DD2941EF795CB003CD2D4 /* RecipeIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2931EF795CB003CD2D4 /* RecipeIngredient.swift */; };
+		4E4DD2961EF7999D003CD2D4 /* ShoppingListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2951EF7999D003CD2D4 /* ShoppingListItem.swift */; };
+		4E4DD2981EF79C3A003CD2D4 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2971EF79C3A003CD2D4 /* Animal.swift */; };
+		4E4DD29A1EF7A00C003CD2D4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2991EF7A00C003CD2D4 /* Product.swift */; };
+		4E4DD29C1EF7A02B003CD2D4 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD29B1EF7A02B003CD2D4 /* CartItem.swift */; };
+		4E4DD29E1EF7A126003CD2D4 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD29D1EF7A126003CD2D4 /* Document.swift */; };
+		4E4DD2A01EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD29F1EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift */; };
+		4E4DD2A21EF7A230003CD2D4 /* UntitledDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2A11EF7A230003CD2D4 /* UntitledDocument.swift */; };
+		4E4DD2A41EF7A39D003CD2D4 /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2A31EF7A39D003CD2D4 /* Checkerboard.swift */; };
+		4E4DD2A71EF7B0A7003CD2D4 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2A61EF7B0A7003CD2D4 /* Bank.swift */; };
+		4E4DD2A91EF7B18A003CD2D4 /* Players.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2A81EF7B18A003CD2D4 /* Players.swift */; };
+		4E4DD2AC1EF7BC09003CD2D4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2AB1EF7BC09003CD2D4 /* Country.swift */; };
+		4E4DD2AE1EF7BC42003CD2D4 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2AD1EF7BC42003CD2D4 /* Customer.swift */; };
+		4E4DD2B01EF7BC74003CD2D4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2AF1EF7BC74003CD2D4 /* Person.swift */; };
+		4E4DD2B21EF7BD1E003CD2D4 /* HTMLElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD2B11EF7BD1E003CD2D4 /* HTMLElement.swift */; };
 		4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */; };
 		4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */; };
 		4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */; };
@@ -92,6 +113,27 @@
 		4E1A2C471EF250DD0029A3D2 /* SetE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetE.swift; sourceTree = "<group>"; };
 		4E1A2C491EF275070029A3D2 /* DictionaryE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryE.swift; sourceTree = "<group>"; };
 		4E1A2C4C1EF279CE0029A3D2 /* LimitE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitE.swift; sourceTree = "<group>"; };
+		4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		4E4DD2851EF764FC003CD2D4 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		4E4DD2881EF768A5003CD2D4 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		4E4DD28A1EF769BD003CD2D4 /* Bicycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bicycle.swift; sourceTree = "<group>"; };
+		4E4DD28C1EF76A47003CD2D4 /* Tandem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tandem.swift; sourceTree = "<group>"; };
+		4E4DD2911EF794F7003CD2D4 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		4E4DD2931EF795CB003CD2D4 /* RecipeIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeIngredient.swift; sourceTree = "<group>"; };
+		4E4DD2951EF7999D003CD2D4 /* ShoppingListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListItem.swift; sourceTree = "<group>"; };
+		4E4DD2971EF79C3A003CD2D4 /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		4E4DD2991EF7A00C003CD2D4 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		4E4DD29B1EF7A02B003CD2D4 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		4E4DD29D1EF7A126003CD2D4 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		4E4DD29F1EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticallyNamedDocument.swift; sourceTree = "<group>"; };
+		4E4DD2A11EF7A230003CD2D4 /* UntitledDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UntitledDocument.swift; sourceTree = "<group>"; };
+		4E4DD2A31EF7A39D003CD2D4 /* Checkerboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
+		4E4DD2A61EF7B0A7003CD2D4 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		4E4DD2A81EF7B18A003CD2D4 /* Players.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Players.swift; sourceTree = "<group>"; };
+		4E4DD2AB1EF7BC09003CD2D4 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		4E4DD2AD1EF7BC42003CD2D4 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		4E4DD2AF1EF7BC74003CD2D4 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4E4DD2B11EF7BD1E003CD2D4 /* HTMLElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTMLElement.swift; sourceTree = "<group>"; };
 		4EE6E3491EF36EFC00EB19C4 /* FunctionE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionE.swift; sourceTree = "<group>"; };
 		4EE6E34C1EF37C5600EB19C4 /* ClosureE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureE.swift; sourceTree = "<group>"; };
 		4EE6E34F1EF3A42900EB19C4 /* EnumE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumE.swift; sourceTree = "<group>"; };
@@ -195,6 +237,12 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4E4DD2B31EF7C9E7003CD2D4 /* 2.18错误处理 */,
+				4E4DD2AA1EF7B8E0003CD2D4 /* 2.16自动引用计数 */,
+				4E4DD2A51EF7B011003CD2D4 /* 2.15析构过程 */,
+				4E4DD28E1EF7937C003CD2D4 /* 2.14构造过程 */,
+				4E4DD2871EF76884003CD2D4 /* 2.13继承 */,
+				4E4DD2821EF75731003CD2D4 /* 扩展 */,
 				0CEFA40F1EF424A400F0E279 /* Common */,
 				4EE6E35A1EF3D53B00EB19C4 /* 2.12下标 */,
 				4EE6E3511EF3AE5800EB19C4 /* 类和结构体 */,
@@ -251,6 +299,68 @@
 			path = "控制流";
 			sourceTree = "<group>";
 		};
+		4E4DD2821EF75731003CD2D4 /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2831EF75751003CD2D4 /* Array+Extension.swift */,
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
+		4E4DD2871EF76884003CD2D4 /* 2.13继承 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2881EF768A5003CD2D4 /* Vehicle.swift */,
+				4E4DD28A1EF769BD003CD2D4 /* Bicycle.swift */,
+				4E4DD28C1EF76A47003CD2D4 /* Tandem.swift */,
+			);
+			path = "2.13继承";
+			sourceTree = "<group>";
+		};
+		4E4DD28E1EF7937C003CD2D4 /* 2.14构造过程 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2911EF794F7003CD2D4 /* Food.swift */,
+				4E4DD2931EF795CB003CD2D4 /* RecipeIngredient.swift */,
+				4E4DD2951EF7999D003CD2D4 /* ShoppingListItem.swift */,
+				4E4DD2971EF79C3A003CD2D4 /* Animal.swift */,
+				4E4DD2991EF7A00C003CD2D4 /* Product.swift */,
+				4E4DD29B1EF7A02B003CD2D4 /* CartItem.swift */,
+				4E4DD29D1EF7A126003CD2D4 /* Document.swift */,
+				4E4DD29F1EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift */,
+				4E4DD2A11EF7A230003CD2D4 /* UntitledDocument.swift */,
+				4E4DD2A31EF7A39D003CD2D4 /* Checkerboard.swift */,
+			);
+			path = "2.14构造过程";
+			sourceTree = "<group>";
+		};
+		4E4DD2A51EF7B011003CD2D4 /* 2.15析构过程 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2A61EF7B0A7003CD2D4 /* Bank.swift */,
+				4E4DD2A81EF7B18A003CD2D4 /* Players.swift */,
+			);
+			path = "2.15析构过程";
+			sourceTree = "<group>";
+		};
+		4E4DD2AA1EF7B8E0003CD2D4 /* 2.16自动引用计数 */ = {
+			isa = PBXGroup;
+			children = (
+				4E4DD2AB1EF7BC09003CD2D4 /* Country.swift */,
+				4E4DD2AD1EF7BC42003CD2D4 /* Customer.swift */,
+				4E4DD2AF1EF7BC74003CD2D4 /* Person.swift */,
+				4E4DD2B11EF7BD1E003CD2D4 /* HTMLElement.swift */,
+			);
+			path = "2.16自动引用计数";
+			sourceTree = "<group>";
+		};
+		4E4DD2B31EF7C9E7003CD2D4 /* 2.18错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2.18错误处理";
+			sourceTree = "<group>";
+		};
 		4EE6E3441EF36EA100EB19C4 /* 函数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +392,7 @@
 				4EE6E3541EF3C37200EB19C4 /* AudioChannel.swift */,
 				4EE6E3561EF3D0CA00EB19C4 /* LevelTracker.swift */,
 				4EE6E3581EF3D2C300EB19C4 /* Player.swift */,
+				4E4DD2851EF764FC003CD2D4 /* Matrix.swift */,
 			);
 			path = "类和结构体";
 			sourceTree = "<group>";
@@ -430,29 +541,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */,
+				4E4DD2981EF79C3A003CD2D4 /* Animal.swift in Sources */,
+				4E4DD2961EF7999D003CD2D4 /* ShoppingListItem.swift in Sources */,
+				4E4DD2B21EF7BD1E003CD2D4 /* HTMLElement.swift in Sources */,
 				4E1A2C431EF234670029A3D2 /* TriangleAndSquare.swift in Sources */,
+				4E4DD28D1EF76A47003CD2D4 /* Tandem.swift in Sources */,
 				4E1A2C3B1EF234670029A3D2 /* Contera.swift in Sources */,
 				4EE6E3531EF3B1B900EB19C4 /* Resolution.swift in Sources */,
+				4E4DD2AE1EF7BC42003CD2D4 /* Customer.swift in Sources */,
+				4E4DD2891EF768A5003CD2D4 /* Vehicle.swift in Sources */,
 				4EE6E3591EF3D2C300EB19C4 /* Player.swift in Sources */,
+				4E4DD28B1EF769BD003CD2D4 /* Bicycle.swift in Sources */,
 				4EE6E35C1EF3D61B00EB19C4 /* TimesTable.swift in Sources */,
 				4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */,
 				4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */,
+				4E4DD2AC1EF7BC09003CD2D4 /* Country.swift in Sources */,
+				4E4DD2B01EF7BC74003CD2D4 /* Person.swift in Sources */,
 				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
 				4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */,
 				0C4EC45B1EF962DB008F81BC /* UIImage+ExtensionR.m in Sources */,
 				4E1A2C421EF234670029A3D2 /* Square.swift in Sources */,
+				4E4DD2841EF75751003CD2D4 /* Array+Extension.swift in Sources */,
+				4E4DD2921EF794F7003CD2D4 /* Food.swift in Sources */,
 				4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */,
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				0C4EC45C1EF962DB008F81BC /* UIImageView+Hack.m in Sources */,
+				4E4DD2941EF795CB003CD2D4 /* RecipeIngredient.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
+				4E4DD29E1EF7A126003CD2D4 /* Document.swift in Sources */,
+				4E4DD29C1EF7A02B003CD2D4 /* CartItem.swift in Sources */,
+				4E4DD2A91EF7B18A003CD2D4 /* Players.swift in Sources */,
 				4EE6E3551EF3C37200EB19C4 /* AudioChannel.swift in Sources */,
 				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
+				4E4DD2A41EF7A39D003CD2D4 /* Checkerboard.swift in Sources */,
+				4E4DD2A71EF7B0A7003CD2D4 /* Bank.swift in Sources */,
 				4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */,
 				4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */,
 				4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */,
+				4E4DD29A1EF7A00C003CD2D4 /* Product.swift in Sources */,
+				4E4DD2861EF764FC003CD2D4 /* Matrix.swift in Sources */,
 				0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */,
 				4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */,
+				4E4DD2A21EF7A230003CD2D4 /* UntitledDocument.swift in Sources */,
 				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
+				4E4DD2A01EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
 				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,
 				4E1A2BFE1EF233090029A3D2 /* AppDelegate.swift in Sources */,

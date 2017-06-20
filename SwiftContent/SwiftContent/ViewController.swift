@@ -8,15 +8,18 @@
 
 import UIKit
 
+let rowAndColumn : Int = 7
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let  imageView = UIImageView()
-        let image = UIImage(named: "")
-        image?.ld_imageCornerSize(with: (image?.size)!, fill: UIColor.white, completion: { (imageName) in
-            imageView.image = imageName
-        })
+//        let  imageView = UIImageView()
+//        let image = UIImage(named: "")
+//        image?.ld_imageCornerSize(with: (image?.size)!, fill: UIColor.white, completion: { (imageName) in
+//            imageView.image = imageName
+//        })
         
         
         // Do any additional setup after loading the view, typically from a nib.
@@ -33,8 +36,197 @@ class ViewController: UIViewController {
         //        }
 //        StringE.setStringTest()
         
-//        EnumE.setEnumE()
+//        ArrayE.setArrayE()
+//        setVehice()
+//        setCheckerBoard()
+//        setPlayers()
         
+//        let heading = HTMLElement(name: "h1")
+//        let defaultText = "some default text"
+//        heading.asHTML = {
+//            return "<\(heading.name)>\(heading.text ?? defaultText)</\(heading.name)>"
+//        }
+//        print(heading.asHTML())
+//        var paragraph: HTMLElement? = HTMLElement(name: "p", text: "hello, world")
+//        print(paragraph!.asHTML())
+        
+        let john = Person()
+        let johnsHouse = Residence()
+        johnsHouse.rooms.append(Room(name: "Living Room"))
+        johnsHouse.rooms.append(Room(name: "Kitchen"))
+        john.residence = johnsHouse
+        
+        if let firstRoomName = john.residence?[0].name {
+            print("The first room name is \(firstRoomName).")
+        } else {
+            print("Unable to retrieve the first room name.")
+        }
+        
+        let johnsAddress = Address()
+        johnsAddress.buildingName = "The Larches"
+        johnsAddress.street = "Laurel Street"
+        john.residence?.address = johnsAddress
+
+        if let johnsStreet = john.residence?.address?.street {
+            print("John's street name is \(johnsStreet).")
+        } else {
+            print("Unable to retrieve the address.")
+        }
+        
+        if let buildingIdentifier = john.residence?.address?.buildingIdentifier() {
+            print("John's building identifier is \(buildingIdentifier).")
+        }
+        
+        if let beginsWithThe =
+            john.residence?.address?.buildingIdentifier()?.hasPrefix("The") {
+            if beginsWithThe {
+                print("John's building identifier begins with \"The\".")
+            } else {
+                print("John's building identifier does not begin with \"The\".")
+            }
+        }
+
+    }
+    
+    
+
+
+
+}
+
+extension ViewController {
+    fileprivate func setPlayers(){
+        var playerOne: Players? = Players(coins: 100)
+        print("A new player has joined the game with \(playerOne!.coinsInPurse) coins")
+        // 打印 "A new player has joined the game with 100 coins"
+        print("There are now \(Bank.coinsInBank) coins left in the bank")
+        playerOne!.win(coins: 2_000)
+        print("PlayerOne won 2000 coins & now has \(playerOne!.coinsInPurse) coins")
+        // 输出 "PlayerOne won 2000 coins & now has 2100 coins"
+        print("The bank now only has \(Bank.coinsInBank) coins left")
+
+    }
+    
+    fileprivate func setCheckerBoard(){
+        let finalSquare = (rowAndColumn+1) * (rowAndColumn+1)
+        var board = [Int](repeating: 0, count: finalSquare)
+        
+        let boardColor = Checkerboard()
+        
+        for row in 0...rowAndColumn{
+            for column in 0...rowAndColumn {
+                let bcolor = boardColor.squareIsBlackAtRow(row: row, column: column)
+                var bNum = 0
+                
+                if bcolor {
+                    bNum = 1
+                } else {
+                    bNum = 0
+                }
+                printLog(row*8 + column)
+                board[row*8 + column] = bNum
+            }
+        }
+        
+        printLog(board)
+        
+        var cycleArr = [[Int]]()
+        var arr = [Int]()
+        
+        for row in 0...rowAndColumn{
+            for column in 0...rowAndColumn {
+                arr.append(board[row*(rowAndColumn+1) + column])
+                if column == rowAndColumn {
+                    cycleArr.append(arr)
+                    arr.removeAll()
+                    printLog(cycleArr[row])
+                }
+            }
+        }
+    }
+    
+    
+    fileprivate func setAnimal(){
+        let someCreat = Animal(species: "")
+        if let giraffe = someCreat {
+            printLog("An animal was initialized with a species of \(giraffe.species)")
+        }
+        
+        if someCreat == nil {
+            printLog("The anonymous creature could not be initialized")
+        }
+        
+        //可以利用该可失败构造器在三个枚举成员中获取一个相匹配的枚举成员，当参数的值不能与任何枚举成员相匹配时，则构造失败：
+        let faher = TemperatureUnit(symbol: "L")
+        if faher != nil {
+            printLog("构造成功.")
+        }
+        
+        if faher == nil {
+            printLog("构造失败")
+        }
+        
+        //带原始值的枚举类型会自带一个可失败构造器init?(rawValue:)，该可失败构造器有一个名为rawValue的参数，其类型和枚举类型的原始值类型一致，如果该参数的值能够和某个枚举成员的原始值匹配，则该构造器会构造相应的枚举成员，否则构造失败。
+        let fa = TemperatureUnitE(rawValue: "L")
+        if fa != nil {
+            printLog("构造成功")
+        }
+        
+        if fa == nil {
+            printLog("构造失败")
+        }
+        
+        if let zeroShirts = CartItem(name: "shirt", quantity: 0) {
+            print("构造成功 Item: \(zeroShirts.name), quantity: \(zeroShirts.quantity)")
+        } else {
+            print("构造失败")
+        }
+        
+        
+    }
+    fileprivate func setConstructor(){
+//        let oneMysItm = RecipeIngredient()
+        
+//        let oneBacon = RecipeIngredient(name: "Bacon")
+//        let sixEggs = RecipeIngredient(name: "Eggs", quantity: 6)
+        
+        var breakfastList = [ShoppingListItem(),
+                             ShoppingListItem(name: "Bacon"),
+                             ShoppingListItem(name: "Eggs", quantity: 6)
+                             ]
+        breakfastList[0].name = "Orange juice"
+        breakfastList[0].purchased = true
+        for item in breakfastList {
+            printLog(item.description)
+        }
+    }
+    
+    fileprivate func setVehice(){
+        let someVehicle = Vehicle()
+        printLog("Vehicle: \(someVehicle.description)")
+        
+        let bicycle = Bicycle()
+        bicycle.hasBasket = true
+        bicycle.currentSpeed = 50.0
+        printLog("Bicycle: \(bicycle.description)")
+        bicycle.makeNoise()
+        
+        let tandem = Tandem()
+        tandem.hasBasket = true
+        tandem.currentSpeed = 45.0
+        tandem.currentNumberOfPassengers = 3
+        printLog("Tandem: \(tandem.description)")
+        
+    }
+    
+    fileprivate func setMatrix() {
+        var matrix = Matrix(rows: 2, columns: 2)
+        matrix[0, 1] = 1.5
+        matrix[1, 0] = 3.2
+        printLog(matrix)
+    }
+    
+    fileprivate func ca() {
         //不能在结构体类型的常量（a constant of structure type）上调用可变方法，因为其属性不能被改变，即使属性是变量属性，详情参见常量结构体的存储属性：
         var leftChannel = AudioChannel(x: 1.0, y: 1.0, currentLevel: 7)
         var rightChannel = AudioChannel()
@@ -62,17 +254,9 @@ class ViewController: UIViewController {
         let threeTimesTable = TimesTable(multiplier: 3)
         printLog("six times three is \(threeTimesTable[6])")
         //上面演示的threeTimesTable[6]。这条语句查询了3的乘法表中的第六个元素，返回3的6倍即18
-        
     }
-
-
-
-}
-
-
-extension ViewController {
     
-    func canThrowAnError() throws {
+    fileprivate func canThrowAnError() throws {
         // 这个函数有可能抛出错误
         var someInt = 3
         var anotherInt = 107
