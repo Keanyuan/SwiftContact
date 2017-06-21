@@ -15,33 +15,131 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        setBlackjackCard()
+        printIntegerKinds([3, 10, -20, -10, 0, 9, -3])
         
-        //        enmuTest()
-        //        print(anyCommonElements([1,2,3], [4]))
+//        gameDice()
+        masterE()
+        
+    }
+    
+    
+
+
+}
+
+
+//MARK: -- 方法扩展
+
+extension ViewController {
+    fileprivate func masterE(){
+        let murrayTheHamster = Hamster(name: "Murray")
+        let morganTheHamster = Hamster(name: "Morgan")
+        let mauriceTheHamster = Hamster(name: "Maurice")
+        let hamsters = [murrayTheHamster, morganTheHamster, mauriceTheHamster]
+        print(hamsters.textualDescription)
+        //如果多个协议扩展都为同一个协议要求提供了默认实现，而遵循协议的类型又同时满足这些协议扩展的限制条件，那么将会使用限制条件最多的那个协议扩展提供的默认实现。
+
+    }
+    
+    fileprivate func gameDice(){
+        let tracker = DiceGameTracker()
+        let game = SnakesAndLadders()
+        game.delegate = tracker
+        game.play()
+        printLog(game.textualDescription)
         
         
-        //        do {
-        //            try canThrowAnError()
-        //            // 没有错误消息抛出
-        //        } catch {
-        //            // 有一个错误消息抛出
+        let d12 = Dice(sides: 12, generator: LinearCongruentialGenerator())
+        printLog(d12.textualDescription)
+        printLog(game.prettyTextualDescription)
+        
+        
+        let sy = SyntheticProtocol()
+        let bir = Prosition(name: "MSF", age: 21)
+        sy.wishHappyBirthday(to: bir)
+    }
+    
+    fileprivate func generatorNum() {
+        let gener = LinearCongruentialGenerator()
+        printLog("Here's a random number: \(gener.random())")
+        printLog("And another one: \(gener.random())")
+        
+        
+        var d6 = Dice(sides: 6, generator: LinearCongruentialGenerator())
+        for _ in 1...5 {
+            printLog("Random dice roll is \(d6.roll())")
+        }
+        
+
+
+        
+    }
+    
+    //返回数字符号
+    fileprivate func printIntegerKinds(_ numbers: [Int]) {
+        for number in numbers {
+            switch number.kind {
+            case .Negative:
+                print("- ", terminator: "")
+            case .Zero:
+                print("0 ", terminator: "")
+            default:
+                print("+ ", terminator: "")
+            }
+        }
+    }
+
+    
+    fileprivate func setBlackjackCard(){
+        let theAceOfSpades = BlackjackCard(rank: .Ace, suit: .Spades)
+        printLog("theAceOfSpades: \(theAceOfSpades.description)")
+        
+        let heartsSymbol = BlackjackCard.SuitE.Hearts.rawValue
+        printLog("红色桃心符号为: \(heartsSymbol)")
+
+        
+        let oneInce = 25.4.km
+        printLog("One km is \(oneInce) meters")
+        
+        2.repetitions {
+            printLog("Int 扩展 ： 重复次数")
+        }
+        
+        var sI = 3
+        sI.square()
+        printLog(sI)
+        
+        printLog(32144121[10])
+        
+        
+    }
+    
+    fileprivate func setProcessingError(){
+        let favoriteSnacks = [
+            "Alice": "Chips",
+            "Bob": "Licorice",
+            "Eve": "Pretzels",
+            ]
+        
+        func buyFavoriteSnack(person: String, vendingMachine: VendingMachine) throws {
+            let snackName = favoriteSnacks[person] ?? "Candy Bar"
+            try vendingMachine.vend(itemName: snackName)
+        }
+        
+        
+    }
+    
+    
+    fileprivate func setOptionE(){
+        //        let heading = HTMLElement(name: "h1")
+        //        let defaultText = "some default text"
+        //        heading.asHTML = {
+        //            return "<\(heading.name)>\(heading.text ?? defaultText)</\(heading.name)>"
         //        }
-//        StringE.setStringTest()
-        
-//        ArrayE.setArrayE()
-//        setVehice()
-//        setCheckerBoard()
-//        setPlayers()
-        
-//        let heading = HTMLElement(name: "h1")
-//        let defaultText = "some default text"
-//        heading.asHTML = {
-//            return "<\(heading.name)>\(heading.text ?? defaultText)</\(heading.name)>"
-//        }
-//        print(heading.asHTML())
-//        var paragraph: HTMLElement? = HTMLElement(name: "p", text: "hello, world")
-//        print(paragraph!.asHTML())
+        //        print(heading.asHTML())
+        //        var paragraph: HTMLElement? = HTMLElement(name: "p", text: "hello, world")
+        //        print(paragraph!.asHTML())
         
         let john = Person()
         let johnsHouse = Residence()
@@ -59,7 +157,7 @@ class ViewController: UIViewController {
         johnsAddress.buildingName = "The Larches"
         johnsAddress.street = "Laurel Street"
         john.residence?.address = johnsAddress
-
+        
         if let johnsStreet = john.residence?.address?.street {
             print("John's street name is \(johnsStreet).")
         } else {
@@ -81,13 +179,6 @@ class ViewController: UIViewController {
 
     }
     
-    
-
-
-
-}
-
-extension ViewController {
     fileprivate func setPlayers(){
         var playerOne: Players? = Players(coins: 100)
         print("A new player has joined the game with \(playerOne!.coinsInPurse) coins")
@@ -325,6 +416,18 @@ extension ViewController {
         //        SimpleStructure.setSimpleStructure()
         //        print(7.simpleDescription)
         print(repeatItem(repeating: "knock", numberOfTimes:4))
+        
+        //        enmuTest()
+        //        print(anyCommonElements([1,2,3], [4]))
+        
+        
+        //        do {
+        //            try canThrowAnError()
+        //            // 没有错误消息抛出
+        //        } catch {
+        //            // 有一个错误消息抛出
+        //        }
+
         
     }
     
