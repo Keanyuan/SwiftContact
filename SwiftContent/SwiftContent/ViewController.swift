@@ -17,6 +17,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        setBlackjackCard()
         printIntegerKinds([3, 10, -20, -10, 0, 9, -3])
+//        let  imageView = UIImageView()
+//        let image = UIImage(named: "")
+//        image?.ld_imageCornerSize(with: (image?.size)!, fill: UIColor.white, completion: { (imageName) in
+//            imageView.image = imageName
+//        })
+        
+        
+        // Do any additional setup after loading the view, typically from a nib.
         
 //        gameDice()
         masterE()
