@@ -89,6 +89,9 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func shareButtonClick(_ sender: Any) {
+        YMActionSheet.show()
+    }
 
 
 
