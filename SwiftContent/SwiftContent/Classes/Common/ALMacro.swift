@@ -38,6 +38,12 @@ let UIRate = (UIScreen.main.bounds.size.width/375)
 ///   - file: 输出文件位置
 ///   - method: 对应方法
 ///   - line: 所在行
+/*
+ #file	String	所在的文件名
+ #line	Int	所在的行数
+ #column	Int	所在的列数
+ #function	String	所在的声明的名字
+ */
 func printLog<T>(_ message: T,
               _ logError: Bool = false,
               file: String = #file,
