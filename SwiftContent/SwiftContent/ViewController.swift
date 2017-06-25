@@ -189,7 +189,8 @@ extension ViewController {
     
     
     @IBAction func shareButtonClick(_ sender: Any) {
-        YMActionSheet.show()
+//        YMActionSheet.show()
+        FiltrateView.show()
     }
 
 }

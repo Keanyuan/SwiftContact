@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C0875DD1EFE6BA000300EEF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0875D91EFE6BA000300EEF /* UIView+Extension.swift */; };
-		0C0875DE1EFE6BA000300EEF /* YMActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0875DA1EFE6BA000300EEF /* YMActionSheet.swift */; };
-		0C0875DF1EFE6BA000300EEF /* YMShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0875DB1EFE6BA000300EEF /* YMShareButtonView.swift */; };
-		0C0875E01EFE6BA000300EEF /* YMVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0875DC1EFE6BA000300EEF /* YMVerticalButton.swift */; };
 		0C4EC45B1EF962DB008F81BC /* UIImage+ExtensionR.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EC4581EF962DB008F81BC /* UIImage+ExtensionR.m */; };
 		0C4EC45C1EF962DB008F81BC /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EC45A1EF962DB008F81BC /* UIImageView+Hack.m */; };
+		0CC49A8D1EFFB3B90046F011 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A891EFFB3B90046F011 /* UIView+Extension.swift */; };
+		0CC49A8E1EFFB3B90046F011 /* YMActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A8A1EFFB3B90046F011 /* YMActionSheet.swift */; };
+		0CC49A8F1EFFB3B90046F011 /* YMShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A8B1EFFB3B90046F011 /* YMShareButtonView.swift */; };
+		0CC49A901EFFB3B90046F011 /* YMVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A8C1EFFB3B90046F011 /* YMVerticalButton.swift */; };
+		0CC49A931EFFB44F0046F011 /* FiltrateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A921EFFB44F0046F011 /* FiltrateView.swift */; };
 		0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEFA4101EF424AF00F0E279 /* ALMacro.swift */; };
 		17253F5CF6391B232DD7F50E /* Pods_SwiftContentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89E94EFCE257BDA15D57F61 /* Pods_SwiftContentTests.framework */; };
 		3F6ED20D8FE4876DFF2F591A /* Pods_SwiftContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008BF149EBAFFB0A3A498AC1 /* Pods_SwiftContent.framework */; };
@@ -93,15 +94,16 @@
 
 /* Begin PBXFileReference section */
 		008BF149EBAFFB0A3A498AC1 /* Pods_SwiftContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0875D91EFE6BA000300EEF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		0C0875DA1EFE6BA000300EEF /* YMActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMActionSheet.swift; sourceTree = "<group>"; };
-		0C0875DB1EFE6BA000300EEF /* YMShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMShareButtonView.swift; sourceTree = "<group>"; };
-		0C0875DC1EFE6BA000300EEF /* YMVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVerticalButton.swift; sourceTree = "<group>"; };
 		0C4EC4561EF962DA008F81BC /* SwiftContent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftContent-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C4EC4571EF962DB008F81BC /* UIImage+ExtensionR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ExtensionR.h"; sourceTree = "<group>"; };
 		0C4EC4581EF962DB008F81BC /* UIImage+ExtensionR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtensionR.m"; sourceTree = "<group>"; };
 		0C4EC4591EF962DB008F81BC /* UIImageView+Hack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Hack.h"; sourceTree = "<group>"; };
 		0C4EC45A1EF962DB008F81BC /* UIImageView+Hack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Hack.m"; sourceTree = "<group>"; };
+		0CC49A891EFFB3B90046F011 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0CC49A8A1EFFB3B90046F011 /* YMActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMActionSheet.swift; sourceTree = "<group>"; };
+		0CC49A8B1EFFB3B90046F011 /* YMShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMShareButtonView.swift; sourceTree = "<group>"; };
+		0CC49A8C1EFFB3B90046F011 /* YMVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMVerticalButton.swift; sourceTree = "<group>"; };
+		0CC49A921EFFB44F0046F011 /* FiltrateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiltrateView.swift; sourceTree = "<group>"; };
 		0CEFA4101EF424AF00F0E279 /* ALMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALMacro.swift; sourceTree = "<group>"; };
 		1B730A879D6EADE3C83ED88F /* Pods-SwiftContentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftContentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftContentTests/Pods-SwiftContentTests.release.xcconfig"; sourceTree = "<group>"; };
 		224E7FCA6CF18622F1C74310 /* Pods_SwiftContentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftContentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,15 +204,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C0875D81EFE6BA000300EEF /* shareView */ = {
+		0CC49A871EFFB3B90046F011 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
-				0C0875D91EFE6BA000300EEF /* UIView+Extension.swift */,
-				0C0875DA1EFE6BA000300EEF /* YMActionSheet.swift */,
-				0C0875DB1EFE6BA000300EEF /* YMShareButtonView.swift */,
-				0C0875DC1EFE6BA000300EEF /* YMVerticalButton.swift */,
+				0CC49A911EFFB43A0046F011 /* shaixuan */,
+				0CC49A881EFFB3B90046F011 /* shareView */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		0CC49A881EFFB3B90046F011 /* shareView */ = {
+			isa = PBXGroup;
+			children = (
+				0CC49A891EFFB3B90046F011 /* UIView+Extension.swift */,
+				0CC49A8A1EFFB3B90046F011 /* YMActionSheet.swift */,
+				0CC49A8B1EFFB3B90046F011 /* YMShareButtonView.swift */,
+				0CC49A8C1EFFB3B90046F011 /* YMVerticalButton.swift */,
 			);
 			path = shareView;
+			sourceTree = "<group>";
+		};
+		0CC49A911EFFB43A0046F011 /* shaixuan */ = {
+			isa = PBXGroup;
+			children = (
+				0CC49A921EFFB44F0046F011 /* FiltrateView.swift */,
+			);
+			path = shaixuan;
 			sourceTree = "<group>";
 		};
 		0CEFA40F1EF424A400F0E279 /* Common */ = {
@@ -306,7 +325,7 @@
 		4E1A2C2D1EF234670029A3D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0C0875D81EFE6BA000300EEF /* shareView */,
+				0CC49A871EFFB3B90046F011 /* ContentView */,
 				4E69E0801EF8BE4B0043C7A7 /* 2.22协议 */,
 				4E69E07D1EF8B1D70043C7A7 /* 2.21扩展 */,
 				4E69E07A1EF8A72E0043C7A7 /* 2.20类型嵌套 */,
@@ -798,11 +817,11 @@
 				4E4DD2AE1EF7BC42003CD2D4 /* Customer.swift in Sources */,
 				4E4DD2891EF768A5003CD2D4 /* Vehicle.swift in Sources */,
 				4EE6E3591EF3D2C300EB19C4 /* Player.swift in Sources */,
+				0CC49A8D1EFFB3B90046F011 /* UIView+Extension.swift in Sources */,
 				4E4DD28B1EF769BD003CD2D4 /* Bicycle.swift in Sources */,
 				4EE6E35C1EF3D61B00EB19C4 /* TimesTable.swift in Sources */,
 				4E1A2C3F1EF234670029A3D2 /* NamedShape.swift in Sources */,
 				4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */,
-				0C0875DD1EFE6BA000300EEF /* UIView+Extension.swift in Sources */,
 				4E4DD2AC1EF7BC09003CD2D4 /* Country.swift in Sources */,
 				4E4DD2B01EF7BC74003CD2D4 /* Person.swift in Sources */,
 				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
@@ -812,16 +831,16 @@
 				4E4DD2841EF75751003CD2D4 /* Array+Extension.swift in Sources */,
 				4E69E0821EF8BE550043C7A7 /* LinearCongruentialGenerator.swift in Sources */,
 				4E4DD2921EF794F7003CD2D4 /* Food.swift in Sources */,
+				0CC49A901EFFB3B90046F011 /* YMVerticalButton.swift in Sources */,
 				4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */,
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				0C4EC45C1EF962DB008F81BC /* UIImageView+Hack.m in Sources */,
 				4E4DD2941EF795CB003CD2D4 /* RecipeIngredient.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
+				0CC49A8E1EFFB3B90046F011 /* YMActionSheet.swift in Sources */,
 				4E4DD29E1EF7A126003CD2D4 /* Document.swift in Sources */,
 				4E4DD29C1EF7A02B003CD2D4 /* CartItem.swift in Sources */,
-				0C0875DE1EFE6BA000300EEF /* YMActionSheet.swift in Sources */,
 				4E4DD2A91EF7B18A003CD2D4 /* Players.swift in Sources */,
-				0C0875E01EFE6BA000300EEF /* YMVerticalButton.swift in Sources */,
 				4EE6E3551EF3C37200EB19C4 /* AudioChannel.swift in Sources */,
 				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
 				4E4DD2A41EF7A39D003CD2D4 /* Checkerboard.swift in Sources */,
@@ -835,9 +854,10 @@
 				4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */,
 				4E4DD2A21EF7A230003CD2D4 /* UntitledDocument.swift in Sources */,
 				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
-				0C0875DF1EFE6BA000300EEF /* YMShareButtonView.swift in Sources */,
+				0CC49A931EFFB44F0046F011 /* FiltrateView.swift in Sources */,
 				4E4DD2A01EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
+				0CC49A8F1EFFB3B90046F011 /* YMShareButtonView.swift in Sources */,
 				4E69E07F1EF8B1FE0043C7A7 /* Double+Extension.swift in Sources */,
 				4E69E0791EF8A46C0043C7A7 /* VendingMachine.swift in Sources */,
 				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,
