@@ -47,6 +47,7 @@ class FiltrateView: UIView {
             make.top.right.bottom.equalTo(bgView)
             make.width.equalTo(bgView).multipliedBy(0.8)
         }
+        
     }
     
     
