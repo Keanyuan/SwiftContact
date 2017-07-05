@@ -21,10 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kz0-cZ-1TE">
-                                <rect key="frame" x="112" y="174" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kz0-cZ-1TE">
+                                <rect key="frame" x="44" y="178" width="126" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="按钮" image="youku_refreshing">
+                                    <color key="titleColor" red="0.1960784314" green="0.77266327109999999" blue="0.72967218140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="shareButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qPa-sS-Y90"/>
                                 </connections>
@@ -36,12 +38,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076" y="131.78410794602701"/>
+            <point key="canvasLocation" x="1277.5999999999999" y="843.32833583208401"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ekw-0f-Wsx">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Liz-MD-bE0" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Liz-MD-bE0" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="40Y-R6-Y3D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -57,4 +59,7 @@
             <point key="canvasLocation" x="133.59999999999999" y="785.75712143928047"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="youku_refreshing" width="16" height="16"/>
+    </resources>
 </document>
