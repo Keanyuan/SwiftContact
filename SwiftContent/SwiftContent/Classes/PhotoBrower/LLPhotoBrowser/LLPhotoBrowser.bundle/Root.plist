@@ -11,6 +11,8 @@
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
 			<string>Group</string>
+			<key>New item</key>
+			<string></string>
 		</dict>
 		<dict>
 			<key>Type</key>

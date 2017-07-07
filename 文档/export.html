@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF8">
+    <title></title>
+    <style type="text/css">
+        #container {
+            margin: 8px;
+        }
+
+        .param-table {
+            background: #E6E6E6;
+            border: 1px solid #FFF;
+            margin: 12px 0;
+            border-collapse: collapse;
+        }
+
+        .param-table th {
+            background: gray;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #FFF;
+            padding: 5px;
+        }
+
+        .param-table td {
+            border-collapse: collapse;
+            border: 1px solid #FFF;
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        .param-table .th-name {
+            min-width: 140px;
+        }
+
+        .param-table .th-identifier {
+            min-width: 140px;
+        }
+
+        .param-table .th-type {
+            min-width: 100px;
+        }
+
+        .param-table .th-remark {
+            min-width: 200px;
+        }
+
+        .param-table .td-name {}
+
+        .param-table .td-identifier {}
+
+        .param-table .td-type   { color: #990000; }
+
+        .param-table .td-remark { color: #666; }
+
+        .param-table .tr-level-1 { background: #F5F5F5; }
+        .param-table .tr-level-1 .td-identifier { padding-left: 5px; }
+
+        .param-table .tr-level-2 { background: #E6E6E6; }
+        .param-table .tr-level-2 .td-identifier { padding-left: 15px; }
+
+        .param-table .tr-level-3 { background: #CCCCCC; }
+        .param-table .tr-level-3 .td-identifier { padding-left: 25px; }
+
+        .param-table .tr-level-4 { background: #E6E6E6; }
+        .param-table .tr-level-4 .td-identifier { padding-left: 35px; }
+
+        .param-table .tr-level-5 { background: #CCCCCC; }
+        .param-table .tr-level-5 .td-identifier { padding-left: 45px; }
+
+        .param-table .tr-level-6 { background: #E6E6E6; }
+        .param-table .tr-level-6 .td-identifier { padding-left: 55px; }
+
+        .param-table .tr-level-7 { background: #CCCCCC; }
+        .param-table .tr-level-7 .td-identifier { padding-left: 65px; }
+
+        .param-table .tr-level-8 { background: #E6E6E6; }
+        .param-table .tr-level-8 .td-identifier { padding-left: 75px; }
+
+        .param-table .tr-level-9 { background: #CCCCCC; }
+        .param-table .tr-level-9 .td-identifier { padding-left: 85px; }
+
+        .param-table .tr-level-10 { background: #E6E6E6; }
+        .param-table .tr-level-10 .td-identifier { padding-left: 95px; }
+
+        .param-table .tr-level-11 {
+            background: #CCCCCC;
+        }
+        .param-table .tr-level-11 .td-identifier { padding-left: 105px; }
+
+        .param-table .tr-level-12 {
+            background: #E6E6E6;
+        }
+        .param-table .tr-level-12 .td-identifier { padding-left: 115px; }
+
+        .param-table .tr-level-13 {
+            background: #CCCCCC;
+        }
+        .param-table .tr-level-13 .td-identifier { padding-left: 125px; }
+    </style>
+</head>
+<body>
+<div id="container">
+            <div class="module">
+            <h1>1&nbsp;AllwaysDealer</h1>
+                            <div class="page">
+                    <h2>1.1&nbsp;HomePage</h2>
+                                            <div class="action">
+                            <h3>1.1.1&nbsp;query user data</h3>
+
+                            <h3>URL</h3>
+                            <div>http://rapapi.net/queryUserData.json</div>
+
+                            <h3>Method</h3>
+                            <div>GET</div>
+
+                            <h3>Description</h3>
+                            <div></div>
+
+                            <h3>Request Param List</h3>
+                            <table class="param-table"><thead><th class="th-name">Name</th><th class="th-identifier">Identifier</th><th class="th-type">Type</th><th class="th-remark">Remark</th></thead><tr class="tr-level-1"><td class="td-name">某请求参数</td><td class="td-identifier">reqParam</td><td class="td-type">number</td><td class="td-remark"></td></tr></table>
+
+                            <h3>Response Param List</h3>
+                            <table class="param-table"><thead><th class="th-name">Name</th><th class="th-identifier">Identifier</th><th class="th-type">Type</th><th class="th-remark">Remark</th></thead><tr class="tr-level-1"><td class="td-name">error code</td><td class="td-identifier">code</td><td class="td-type">number</td><td class="td-remark">@mock=200</td></tr><tr class="tr-level-1"><td class="td-name">result collection</td><td class="td-identifier">data|3-5</td><td class="td-type">array&lt;object&gt;</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---</td><td class="td-identifier">title</td><td class="td-type">string</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---</td><td class="td-identifier">online</td><td class="td-type">boolean</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---</td><td class="td-identifier">userId|1000-9999</td><td class="td-type">number</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---</td><td class="td-identifier">userName</td><td class="td-type">string</td><td class="td-remark">@mock=@NAME</td></tr></table>
+                        </div>
+                                            <div class="action">
+                            <h3>1.1.2&nbsp;query user list</h3>
+
+                            <h3>URL</h3>
+                            <div>queryUserList</div>
+
+                            <h3>Method</h3>
+                            <div>GET</div>
+
+                            <h3>Description</h3>
+                            <div></div>
+
+                            <h3>Request Param List</h3>
+                            <table class="param-table"><thead><th class="th-name">Name</th><th class="th-identifier">Identifier</th><th class="th-type">Type</th><th class="th-remark">Remark</th></thead><tr class="tr-level-1"><td class="td-name"></td><td class="td-identifier">touch_id</td><td class="td-type">number</td><td class="td-remark"></td></tr></table>
+
+                            <h3>Response Param List</h3>
+                            <table class="param-table"><thead><th class="th-name">Name</th><th class="th-identifier">Identifier</th><th class="th-type">Type</th><th class="th-remark">Remark</th></thead><tr class="tr-level-1"><td class="td-name">error code</td><td class="td-identifier">code</td><td class="td-type">number</td><td class="td-remark">@mock=200</td></tr><tr class="tr-level-1"><td class="td-name">（data|1-10）1-10个随机数组</td><td class="td-identifier">data|1-10</td><td class="td-type">array&lt;object&gt;</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---（id|+1）id从100开始,每次+1</td><td class="td-identifier">id|+1</td><td class="td-type">number</td><td class="td-remark">@mock=100</td></tr><tr class="tr-level-2"><td class="td-name">---&#39;name|min-max.dmin-dmax&#39;: number  生成一个浮点数，整数部分大于等于</td><td class="td-identifier">number1|1-100.1-10</td><td class="td-type">number</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---（name|1-5）名字重复次数1-5</td><td class="td-identifier">name|1-5</td><td class="td-type">string</td><td class="td-remark">@mock=@NAME</td></tr><tr class="tr-level-2"><td class="td-name">---随机生成一个布尔值，概率1：1</td><td class="td-identifier">isSelect|1</td><td class="td-type">boolean</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---&#39;name|min-max.dmin-dmax&#39;: number  生成一个浮点数，整数部分大于等于</td><td class="td-identifier">number2|100.1</td><td class="td-type">number</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---随机生成一个布尔值,概率2：8</td><td class="td-identifier">isState|2-8</td><td class="td-type">boolean</td><td class="td-remark"></td></tr><tr class="tr-level-2"><td class="td-name">---字典类型</td><td class="td-identifier">dummyNic</td><td class="td-type">object</td><td class="td-remark"></td></tr><tr class="tr-level-3"><td class="td-name">------yyyy-MM-dd HH:mm:ss</td><td class="td-identifier">dateTime</td><td class="td-type">string</td><td class="td-remark">@mock=@DATETIME</td></tr><tr class="tr-level-3"><td class="td-name">------根据已有参数生成url</td><td class="td-identifier">imagePath</td><td class="td-type">string</td><td class="td-remark">@mock=http://ex.com/@size/@backgroundColor</td></tr><tr class="tr-level-3"><td class="td-name">------随机生成颜色</td><td class="td-identifier">backgroundColor</td><td class="td-type">string</td><td class="td-remark">@mock=@COLOR</td></tr><tr class="tr-level-3"><td class="td-name">------日期yyyy-MM-dd</td><td class="td-identifier">date</td><td class="td-type">string</td><td class="td-remark">@mock=@DATE</td></tr><tr class="tr-level-3"><td class="td-name">------随机尺寸</td><td class="td-identifier">size</td><td class="td-type">string</td><td class="td-remark">@mock=AD_SIZE</td></tr><tr class="tr-level-3"><td class="td-name">------随机生成连续字符</td><td class="td-identifier">text</td><td class="td-type">string</td><td class="td-remark">@mock=@WORD</td></tr><tr class="tr-level-3"><td class="td-name">------从数组中随机挑选两个元素为属性值</td><td class="td-identifier">formate|2</td><td class="td-type">array&lt;string&gt;</td><td class="td-remark">@mock=png,gif,jpg</td></tr></table>
+                        </div>
+                                    </div>
+                    </div>
+    </div>
+</body>
+</html>

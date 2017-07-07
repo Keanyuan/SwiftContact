@@ -20,6 +20,9 @@ class FiltrateView: UIView {
         window?.addSubview(filtrateView)
 
     }
+    func randomFloat(min: Float, max: Float) -> Float {
+        return (Float(arc4random()) / 0xFFFFFFFF) * (max - min) + min
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)

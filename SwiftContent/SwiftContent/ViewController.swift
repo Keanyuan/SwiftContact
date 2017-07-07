@@ -13,6 +13,7 @@ let rowAndColumn : Int = 7
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var bbbtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 //        setBlackjackCard()
@@ -27,6 +28,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
 //        gameDice()
+        bbbtn.setImage(LLAssetManager.image("ll_browserLoading"), for: .normal)
         masterE()
         
     }

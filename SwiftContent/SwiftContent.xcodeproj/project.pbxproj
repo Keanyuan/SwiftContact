@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		0C4EC45B1EF962DB008F81BC /* UIImage+ExtensionR.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EC4581EF962DB008F81BC /* UIImage+ExtensionR.m */; };
 		0C4EC45C1EF962DB008F81BC /* UIImageView+Hack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4EC45A1EF962DB008F81BC /* UIImageView+Hack.m */; };
+		0C788BE51F0D2D6D00179D67 /* LLAssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BD91F0D2D6D00179D67 /* LLAssetManager.swift */; };
+		0C788BE61F0D2D6D00179D67 /* LLBrowserActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDA1F0D2D6D00179D67 /* LLBrowserActionSheet.swift */; };
+		0C788BE71F0D2D6D00179D67 /* LLBrowserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDB1F0D2D6D00179D67 /* LLBrowserCollectionViewCell.swift */; };
+		0C788BE81F0D2D6D00179D67 /* LLBrowserLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDC1F0D2D6D00179D67 /* LLBrowserLoadingImageView.swift */; };
+		0C788BE91F0D2D6D00179D67 /* LLBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDD1F0D2D6D00179D67 /* LLBrowserViewController.swift */; };
+		0C788BEA1F0D2D6D00179D67 /* LLBrowserZoomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDE1F0D2D6D00179D67 /* LLBrowserZoomScrollView.swift */; };
+		0C788BEB1F0D2D6D00179D67 /* LLLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BDF1F0D2D6D00179D67 /* LLLayout.swift */; };
+		0C788BEC1F0D2D6D00179D67 /* LLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C788BE01F0D2D6D00179D67 /* LLPhotoBrowser.bundle */; };
+		0C788BED1F0D2D6D00179D67 /* LLPhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BE11F0D2D6D00179D67 /* LLPhotoBrowserViewController.swift */; };
+		0C788BEE1F0D2D6D00179D67 /* LLRemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BE21F0D2D6D00179D67 /* LLRemindView.swift */; };
+		0C788BEF1F0D2D6D00179D67 /* LLUIImageScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C788BE31F0D2D6D00179D67 /* LLUIImageScale.swift */; };
 		0CC49A8D1EFFB3B90046F011 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A891EFFB3B90046F011 /* UIView+Extension.swift */; };
 		0CC49A8E1EFFB3B90046F011 /* YMActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A8A1EFFB3B90046F011 /* YMActionSheet.swift */; };
 		0CC49A8F1EFFB3B90046F011 /* YMShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC49A8B1EFFB3B90046F011 /* YMShareButtonView.swift */; };
@@ -17,17 +28,6 @@
 		0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEFA4101EF424AF00F0E279 /* ALMacro.swift */; };
 		17253F5CF6391B232DD7F50E /* Pods_SwiftContentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89E94EFCE257BDA15D57F61 /* Pods_SwiftContentTests.framework */; };
 		3F6ED20D8FE4876DFF2F591A /* Pods_SwiftContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008BF149EBAFFB0A3A498AC1 /* Pods_SwiftContent.framework */; };
-		4E1916FD1F0CE70F0067317A /* LLAssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916EF1F0CE70F0067317A /* LLAssetManager.swift */; };
-		4E1916FE1F0CE70F0067317A /* LLBrowserActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F01F0CE70F0067317A /* LLBrowserActionSheet.swift */; };
-		4E1916FF1F0CE70F0067317A /* LLBrowserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F11F0CE70F0067317A /* LLBrowserCollectionViewCell.swift */; };
-		4E1917001F0CE70F0067317A /* LLBrowserLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F21F0CE70F0067317A /* LLBrowserLoadingImageView.swift */; };
-		4E1917011F0CE70F0067317A /* LLBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F31F0CE70F0067317A /* LLBrowserViewController.swift */; };
-		4E1917021F0CE70F0067317A /* LLBrowserZoomScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F41F0CE70F0067317A /* LLBrowserZoomScrollView.swift */; };
-		4E1917031F0CE70F0067317A /* LLLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F51F0CE70F0067317A /* LLLayout.swift */; };
-		4E1917041F0CE70F0067317A /* LLPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4E1916F61F0CE70F0067317A /* LLPhotoBrowser.bundle */; };
-		4E1917051F0CE70F0067317A /* LLPhotoBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F71F0CE70F0067317A /* LLPhotoBrowserViewController.swift */; };
-		4E1917061F0CE70F0067317A /* LLRemindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F81F0CE70F0067317A /* LLRemindView.swift */; };
-		4E1917071F0CE70F0067317A /* LLUIImageScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916F91F0CE70F0067317A /* LLUIImageScale.swift */; };
 		4E1917081F0CE70F0067317A /* LPhotoBrowerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916FA1F0CE70F0067317A /* LPhotoBrowerController.swift */; };
 		4E1917091F0CE70F0067317A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1916FB1F0CE70F0067317A /* PhotoCollectionViewCell.swift */; };
 		4E19170A1F0CE70F0067317A /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1916FC1F0CE70F0067317A /* PhotoCollectionViewCell.xib */; };
@@ -113,6 +113,17 @@
 		0C4EC4581EF962DB008F81BC /* UIImage+ExtensionR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ExtensionR.m"; sourceTree = "<group>"; };
 		0C4EC4591EF962DB008F81BC /* UIImageView+Hack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Hack.h"; sourceTree = "<group>"; };
 		0C4EC45A1EF962DB008F81BC /* UIImageView+Hack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Hack.m"; sourceTree = "<group>"; };
+		0C788BD91F0D2D6D00179D67 /* LLAssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAssetManager.swift; sourceTree = "<group>"; };
+		0C788BDA1F0D2D6D00179D67 /* LLBrowserActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserActionSheet.swift; sourceTree = "<group>"; };
+		0C788BDB1F0D2D6D00179D67 /* LLBrowserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserCollectionViewCell.swift; sourceTree = "<group>"; };
+		0C788BDC1F0D2D6D00179D67 /* LLBrowserLoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserLoadingImageView.swift; sourceTree = "<group>"; };
+		0C788BDD1F0D2D6D00179D67 /* LLBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserViewController.swift; sourceTree = "<group>"; };
+		0C788BDE1F0D2D6D00179D67 /* LLBrowserZoomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserZoomScrollView.swift; sourceTree = "<group>"; };
+		0C788BDF1F0D2D6D00179D67 /* LLLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLLayout.swift; sourceTree = "<group>"; };
+		0C788BE01F0D2D6D00179D67 /* LLPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLPhotoBrowser.bundle; sourceTree = "<group>"; };
+		0C788BE11F0D2D6D00179D67 /* LLPhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPhotoBrowserViewController.swift; sourceTree = "<group>"; };
+		0C788BE21F0D2D6D00179D67 /* LLRemindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLRemindView.swift; sourceTree = "<group>"; };
+		0C788BE31F0D2D6D00179D67 /* LLUIImageScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLUIImageScale.swift; sourceTree = "<group>"; };
 		0CC49A891EFFB3B90046F011 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0CC49A8A1EFFB3B90046F011 /* YMActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMActionSheet.swift; sourceTree = "<group>"; };
 		0CC49A8B1EFFB3B90046F011 /* YMShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMShareButtonView.swift; sourceTree = "<group>"; };
@@ -121,17 +132,6 @@
 		0CEFA4101EF424AF00F0E279 /* ALMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALMacro.swift; sourceTree = "<group>"; };
 		1B730A879D6EADE3C83ED88F /* Pods-SwiftContentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftContentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftContentTests/Pods-SwiftContentTests.release.xcconfig"; sourceTree = "<group>"; };
 		224E7FCA6CF18622F1C74310 /* Pods_SwiftContentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftContentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E1916EF1F0CE70F0067317A /* LLAssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLAssetManager.swift; sourceTree = "<group>"; };
-		4E1916F01F0CE70F0067317A /* LLBrowserActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserActionSheet.swift; sourceTree = "<group>"; };
-		4E1916F11F0CE70F0067317A /* LLBrowserCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserCollectionViewCell.swift; sourceTree = "<group>"; };
-		4E1916F21F0CE70F0067317A /* LLBrowserLoadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserLoadingImageView.swift; sourceTree = "<group>"; };
-		4E1916F31F0CE70F0067317A /* LLBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserViewController.swift; sourceTree = "<group>"; };
-		4E1916F41F0CE70F0067317A /* LLBrowserZoomScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLBrowserZoomScrollView.swift; sourceTree = "<group>"; };
-		4E1916F51F0CE70F0067317A /* LLLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLLayout.swift; sourceTree = "<group>"; };
-		4E1916F61F0CE70F0067317A /* LLPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLPhotoBrowser.bundle; sourceTree = "<group>"; };
-		4E1916F71F0CE70F0067317A /* LLPhotoBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPhotoBrowserViewController.swift; sourceTree = "<group>"; };
-		4E1916F81F0CE70F0067317A /* LLRemindView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLRemindView.swift; sourceTree = "<group>"; };
-		4E1916F91F0CE70F0067317A /* LLUIImageScale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLUIImageScale.swift; sourceTree = "<group>"; };
 		4E1916FA1F0CE70F0067317A /* LPhotoBrowerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPhotoBrowerController.swift; sourceTree = "<group>"; };
 		4E1916FB1F0CE70F0067317A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		4E1916FC1F0CE70F0067317A /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -232,6 +232,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C788BD81F0D2D5C00179D67 /* LLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0C788BD91F0D2D6D00179D67 /* LLAssetManager.swift */,
+				0C788BDA1F0D2D6D00179D67 /* LLBrowserActionSheet.swift */,
+				0C788BDB1F0D2D6D00179D67 /* LLBrowserCollectionViewCell.swift */,
+				0C788BDC1F0D2D6D00179D67 /* LLBrowserLoadingImageView.swift */,
+				0C788BDD1F0D2D6D00179D67 /* LLBrowserViewController.swift */,
+				0C788BDE1F0D2D6D00179D67 /* LLBrowserZoomScrollView.swift */,
+				0C788BDF1F0D2D6D00179D67 /* LLLayout.swift */,
+				0C788BE01F0D2D6D00179D67 /* LLPhotoBrowser.bundle */,
+				0C788BE11F0D2D6D00179D67 /* LLPhotoBrowserViewController.swift */,
+				0C788BE21F0D2D6D00179D67 /* LLRemindView.swift */,
+				0C788BE31F0D2D6D00179D67 /* LLUIImageScale.swift */,
+			);
+			path = LLPhotoBrowser;
+			sourceTree = "<group>";
+		};
 		0CC49A871EFFB3B90046F011 /* ContentView */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,30 +317,12 @@
 		4E1916ED1F0CE70F0067317A /* PhotoBrower */ = {
 			isa = PBXGroup;
 			children = (
-				4E1916EE1F0CE70F0067317A /* LLPhotoBrowser */,
+				0C788BD81F0D2D5C00179D67 /* LLPhotoBrowser */,
 				4E1916FA1F0CE70F0067317A /* LPhotoBrowerController.swift */,
 				4E1916FB1F0CE70F0067317A /* PhotoCollectionViewCell.swift */,
 				4E1916FC1F0CE70F0067317A /* PhotoCollectionViewCell.xib */,
 			);
 			path = PhotoBrower;
-			sourceTree = "<group>";
-		};
-		4E1916EE1F0CE70F0067317A /* LLPhotoBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				4E1916EF1F0CE70F0067317A /* LLAssetManager.swift */,
-				4E1916F01F0CE70F0067317A /* LLBrowserActionSheet.swift */,
-				4E1916F11F0CE70F0067317A /* LLBrowserCollectionViewCell.swift */,
-				4E1916F21F0CE70F0067317A /* LLBrowserLoadingImageView.swift */,
-				4E1916F31F0CE70F0067317A /* LLBrowserViewController.swift */,
-				4E1916F41F0CE70F0067317A /* LLBrowserZoomScrollView.swift */,
-				4E1916F51F0CE70F0067317A /* LLLayout.swift */,
-				4E1916F61F0CE70F0067317A /* LLPhotoBrowser.bundle */,
-				4E1916F71F0CE70F0067317A /* LLPhotoBrowserViewController.swift */,
-				4E1916F81F0CE70F0067317A /* LLRemindView.swift */,
-				4E1916F91F0CE70F0067317A /* LLUIImageScale.swift */,
-			);
-			path = LLPhotoBrowser;
 			sourceTree = "<group>";
 		};
 		4E1A2BF11EF233090029A3D2 = {
@@ -704,7 +704,7 @@
 				4E19170A1F0CE70F0067317A /* PhotoCollectionViewCell.xib in Resources */,
 				4E1A2C051EF233090029A3D2 /* Assets.xcassets in Resources */,
 				4E1A2C031EF233090029A3D2 /* Main.storyboard in Resources */,
-				4E1917041F0CE70F0067317A /* LLPhotoBrowser.bundle in Resources */,
+				0C788BEC1F0D2D6D00179D67 /* LLPhotoBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,7 +867,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E1916FE1F0CE70F0067317A /* LLBrowserActionSheet.swift in Sources */,
 				4E1A2C461EF236470029A3D2 /* ArrayE.swift in Sources */,
 				4E4DD2981EF79C3A003CD2D4 /* Animal.swift in Sources */,
 				4E4DD2961EF7999D003CD2D4 /* ShoppingListItem.swift in Sources */,
@@ -888,6 +887,7 @@
 				4EE6E34A1EF36EFC00EB19C4 /* FunctionE.swift in Sources */,
 				4E4DD2AC1EF7BC09003CD2D4 /* Country.swift in Sources */,
 				4E4DD2B01EF7BC74003CD2D4 /* Person.swift in Sources */,
+				0C788BEE1F0D2D6D00179D67 /* LLRemindView.swift in Sources */,
 				4E1A2C3E1EF234670029A3D2 /* IntStack.swift in Sources */,
 				4E1A2C001EF233090029A3D2 /* ViewController.swift in Sources */,
 				0C4EC45B1EF962DB008F81BC /* UIImage+ExtensionR.m in Sources */,
@@ -896,21 +896,16 @@
 				4E69E0821EF8BE550043C7A7 /* LinearCongruentialGenerator.swift in Sources */,
 				4E4DD2921EF794F7003CD2D4 /* Food.swift in Sources */,
 				0CC49A901EFFB3B90046F011 /* YMVerticalButton.swift in Sources */,
-				4E1917061F0CE70F0067317A /* LLRemindView.swift in Sources */,
-				4E1917001F0CE70F0067317A /* LLBrowserLoadingImageView.swift in Sources */,
+				0C788BE51F0D2D6D00179D67 /* LLAssetManager.swift in Sources */,
 				4EE6E3571EF3D0CA00EB19C4 /* LevelTracker.swift in Sources */,
 				4E1A2C3C1EF234670029A3D2 /* EquilateralTriangle.swift in Sources */,
 				0C4EC45C1EF962DB008F81BC /* UIImageView+Hack.m in Sources */,
 				4E4DD2941EF795CB003CD2D4 /* RecipeIngredient.swift in Sources */,
 				4E1A2C411EF234670029A3D2 /* SimpleStructure.swift in Sources */,
 				0CC49A8E1EFFB3B90046F011 /* YMActionSheet.swift in Sources */,
-				4E1917021F0CE70F0067317A /* LLBrowserZoomScrollView.swift in Sources */,
-				4E1916FD1F0CE70F0067317A /* LLAssetManager.swift in Sources */,
-				4E1917011F0CE70F0067317A /* LLBrowserViewController.swift in Sources */,
-				4E1917051F0CE70F0067317A /* LLPhotoBrowserViewController.swift in Sources */,
-				4E1917071F0CE70F0067317A /* LLUIImageScale.swift in Sources */,
 				4E4DD29E1EF7A126003CD2D4 /* Document.swift in Sources */,
 				4E4DD29C1EF7A02B003CD2D4 /* CartItem.swift in Sources */,
+				0C788BEB1F0D2D6D00179D67 /* LLLayout.swift in Sources */,
 				4E4DD2A91EF7B18A003CD2D4 /* Players.swift in Sources */,
 				4EE6E3551EF3C37200EB19C4 /* AudioChannel.swift in Sources */,
 				4E1A2C3D1EF234670029A3D2 /* Int.swift in Sources */,
@@ -919,21 +914,26 @@
 				4EE6E34D1EF37C5600EB19C4 /* ClosureE.swift in Sources */,
 				4E1A2C4A1EF275070029A3D2 /* DictionaryE.swift in Sources */,
 				4E1A2C4D1EF279CE0029A3D2 /* LimitE.swift in Sources */,
+				0C788BED1F0D2D6D00179D67 /* LLPhotoBrowserViewController.swift in Sources */,
 				4E4DD29A1EF7A00C003CD2D4 /* Product.swift in Sources */,
+				0C788BE71F0D2D6D00179D67 /* LLBrowserCollectionViewCell.swift in Sources */,
+				0C788BE91F0D2D6D00179D67 /* LLBrowserViewController.swift in Sources */,
 				4E4DD2861EF764FC003CD2D4 /* Matrix.swift in Sources */,
+				0C788BEF1F0D2D6D00179D67 /* LLUIImageScale.swift in Sources */,
 				0CEFA4111EF424AF00F0E279 /* ALMacro.swift in Sources */,
-				4E1916FF1F0CE70F0067317A /* LLBrowserCollectionViewCell.swift in Sources */,
 				4EE6E3501EF3A42900EB19C4 /* EnumE.swift in Sources */,
+				0C788BE81F0D2D6D00179D67 /* LLBrowserLoadingImageView.swift in Sources */,
 				4E4DD2A21EF7A230003CD2D4 /* UntitledDocument.swift in Sources */,
 				4E1A2C481EF250DD0029A3D2 /* SetE.swift in Sources */,
 				0CC49A931EFFB44F0046F011 /* FiltrateView.swift in Sources */,
+				0C788BE61F0D2D6D00179D67 /* LLBrowserActionSheet.swift in Sources */,
 				4E4DD2A01EF7A165003CD2D4 /* AutomaticallyNamedDocument.swift in Sources */,
 				4E1A2C401EF234670029A3D2 /* SimpleClass.swift in Sources */,
 				0CC49A8F1EFFB3B90046F011 /* YMShareButtonView.swift in Sources */,
+				0C788BEA1F0D2D6D00179D67 /* LLBrowserZoomScrollView.swift in Sources */,
 				4E1917081F0CE70F0067317A /* LPhotoBrowerController.swift in Sources */,
 				4E69E07F1EF8B1FE0043C7A7 /* Double+Extension.swift in Sources */,
 				4E69E0791EF8A46C0043C7A7 /* VendingMachine.swift in Sources */,
-				4E1917031F0CE70F0067317A /* LLLayout.swift in Sources */,
 				4E1A2C3A1EF234670029A3D2 /* StringE.swift in Sources */,
 				4E69E07C1EF8A7490043C7A7 /* BlackjackCard.swift in Sources */,
 				4E1A2BFE1EF233090029A3D2 /* AppDelegate.swift in Sources */,

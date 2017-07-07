@@ -22,23 +22,72 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kz0-cZ-1TE">
-                                <rect key="frame" x="44" y="178" width="126" height="54"/>
+                                <rect key="frame" x="54" y="170" width="107" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="按钮" image="youku_refreshing">
+                                <state key="normal" title="按钮" image="Share_CopyLinkIcon_70x70_">
                                     <color key="titleColor" red="0.1960784314" green="0.77266327109999999" blue="0.72967218140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="shareButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qPa-sS-Y90"/>
+                                    <segue destination="Jnw-Dw-6sP" kind="push" id="OmU-eE-R83"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="84N-O2-hmL"/>
+                    <connections>
+                        <outlet property="bbbtn" destination="kz0-cZ-1TE" id="wvo-0n-ac8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1277.5999999999999" y="843.32833583208401"/>
+        </scene>
+        <!--Photo Brower Controller-->
+        <scene sceneID="315-lv-y1m">
+            <objects>
+                <viewController storyboardIdentifier="LPhotoBrowerController" id="Jnw-Dw-6sP" customClass="LPhotoBrowerController" customModule="SwiftContent" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Lb-8e-b0d"/>
+                        <viewControllerLayoutGuide type="bottom" id="1SP-np-4Sf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CB0-79-6sp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="RuK-bP-mxe">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.63699001740000005" green="0.92347547740000002" blue="0.8117675781" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6Ej-Or-94L">
+                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Jnw-Dw-6sP" id="54w-Mv-t6w"/>
+                                    <outlet property="delegate" destination="Jnw-Dw-6sP" id="J7P-iQ-TOd"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1SP-np-4Sf" firstAttribute="top" secondItem="RuK-bP-mxe" secondAttribute="bottom" id="bFK-jl-htT"/>
+                            <constraint firstAttribute="trailing" secondItem="RuK-bP-mxe" secondAttribute="trailing" id="d2X-0f-6Eo"/>
+                            <constraint firstItem="RuK-bP-mxe" firstAttribute="leading" secondItem="CB0-79-6sp" secondAttribute="leading" id="gtk-nz-APB"/>
+                            <constraint firstItem="RuK-bP-mxe" firstAttribute="top" secondItem="1Lb-8e-b0d" secondAttribute="bottom" id="rB1-EZ-bRO"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="yJ0-zW-EUn"/>
+                    <connections>
+                        <outlet property="collectionView" destination="RuK-bP-mxe" id="jHa-4c-xss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D8k-ib-XM0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1928" y="854"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ekw-0f-Wsx">
@@ -60,6 +109,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="youku_refreshing" width="16" height="16"/>
+        <image name="Share_CopyLinkIcon_70x70_" width="70" height="70"/>
     </resources>
 </document>
