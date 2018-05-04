@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'WeeXT' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+#Weex
+pod 'WeexSDK'
+#SDWebImage
+pod 'SDWebImage', '3.7.5'
+  # Pods for WeeXT
+pod 'Kingfisher'
+pod 'FDFullscreenPopGesture'
+pod 'SocketRocket', '0.4.2'
+pod 'HandyJSON'
+
+  target 'WeeXTTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WeeXTUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
