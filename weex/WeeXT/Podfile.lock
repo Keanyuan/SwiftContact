@@ -1,0 +1,38 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (4.1.1)
+  - Kingfisher (4.7.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SocketRocket (0.4.2)
+  - WeexSDK (0.18.0)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - HandyJSON
+  - Kingfisher
+  - SDWebImage (= 3.7.5)
+  - SocketRocket (= 0.4.2)
+  - WeexSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - Kingfisher
+    - SDWebImage
+    - SocketRocket
+    - WeexSDK
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: 3a3de917c4118767ffe41c29b5acba23409649f4
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
+
+PODFILE CHECKSUM: 5a699863e7d0f3913d5dea4680d247526c7870c7
+
+COCOAPODS: 1.5.0
