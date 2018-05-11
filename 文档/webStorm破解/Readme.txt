@@ -5,12 +5,20 @@ Jetbrains Crack v2.7
 
 1. Copy JetbrainsCrack.jar to $ {InstallDir} / bin
 
+
 2. Edit the file "$ {Product} .vmoptions" (or "$ {Product} $ {64} .vmoptions") in the folder {InstallDir} / bin:
+
+
 
 2.1 Add at the end of the file (from a new line): -javaagent: {InstallDir} /bin/JetbrainsCrack.jar
 for example: -javaagent:D:\Program Files\JetBrains\WebStorm 2017.3\bin\JetbrainsCrack.jar
 Note: "-javaagent:C:\Program Files\..." - without space!
 3. Run the product.
+
+Mac :
+①解压DMG中的 Crack.zip ，将其中的 JetbrainsCrack.jar 文件复制到/Applications/WebStorm.app/Contents/bin/ 目录中；
+
+②用编辑器打开 /Applications/WebStorm.app/Contents/bin/webstorm.vmoptions 文件，添加 -javaagent:/Applications/WebStorm.app/Contents/bin/JetbrainsCrack.jar 到第一行
 
 4. Enter key
 
